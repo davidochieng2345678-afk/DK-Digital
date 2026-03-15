@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DK Digital - SEO & Digital Marketing Agency</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ===== GLOBAL ===== */
+* {box-sizing:border-box;margin:0;padding:0;font-family:'Montserrat',sans-serif;}
+body {line-height:1.6;color:#333;scroll-behavior:smooth;}
+a {text-decoration:none;color:inherit;}
+
+/* ===== HEADER ===== */
+header {position:sticky;top:0;background-color:#0a3d62;color:#fff;display:flex;justify-content:space-between;align-items:center;padding:15px 30px;z-index:1000;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+header .logo {font-size:1.8rem;font-weight:700;cursor:pointer;}
+nav ul {list-style:none;display:flex;gap:25px;}
+nav ul li a {color:#fff;font-weight:600;transition:0.3s;}
+nav ul li a:hover {color:#f39c12;}
+.cta-btn {background-color:#f39c12;padding:10px 20px;border-radius:5px;color:#fff;font-weight:bold;transition:0.3s;}
+.cta-btn:hover {background-color:#e67e22;}
+
+/* ===== HERO ===== */
+.hero {background:url('https://images.unsplash.com/photo-1581091012184-f1c4ce5f860c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;color:#fff;text-align:center;padding:120px 20px;position:relative;}
+.hero::after {content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color: rgba(10,61,98,0.6); z-index:0;}
+.hero-content {position:relative; z-index:1;}
+.hero h1 {font-size:3rem;margin-bottom:20px; animation: fadeInDown 1s ease-in-out;}
+.hero p {font-size:1.3rem;margin-bottom:30px; animation: fadeInUp 1s ease-in-out;}
+.hero .hero-buttons a {margin:0 10px; display:inline-block; animation: fadeIn 2s ease-in-out;}
+
+/* ===== SERVICES ===== */
+.services {padding:80px 20px;text-align:center;background-color:#f5f5f5;}
+.services h2 {font-size:2.5rem;margin-bottom:50px;}
+.service-cards {display:flex;flex-wrap:wrap;justify-content:center;gap:25px;}
+.card {background-color:#fff;padding:25px;width:280px;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.1);transition:0.3s;opacity:0;transform:translateY(20px);}
+.card:hover {transform:translateY(-10px);box-shadow:0 12px 25px rgba(0,0,0,0.15);}
+.card h3 {margin-bottom:15px;color:#0a3d62;}
+.card p {font-size:1rem;margin-bottom:15px;}
+.card a {color:#f39c12;font-weight:bold;}
+
+/* ===== COUNTERS ===== */
+.counters {padding:80px 20px;text-align:center;background:#fff;}
+.counters h2 {font-size:2.5rem;margin-bottom:50px;}
+.counter-container {display:flex;flex-wrap:wrap;justify-content:center;gap:50px;}
+.counter-box {text-align:center;opacity:0;transform:translateY(20px);}
+.counter-box h3 {font-size:3rem;color:#f39c12;margin-bottom:10px;}
+.counter-box p {font-size:1.2rem;color:#0a3d62;}
+
+/* ===== PRICING ===== */
+.pricing {padding:80px 20px;text-align:center;background:#f5f5f5;}
+.pricing h2 {font-size:2.5rem;margin-bottom:50px;}
+.pricing-cards {display:flex;flex-wrap:wrap;justify-content:center;gap:25px;}
+.pricing-card {background:#fff;padding:30px;width:280px;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.1);transition:0.3s;opacity:0;transform:translateY(20px);}
+.pricing-card:hover {transform:translateY(-10px);box-shadow:0 12px 25px rgba(0,0,0,0.15);}
+.pricing-card h3 {color:#0a3d62;margin-bottom:15px;}
+.pricing-card p {margin-bottom:20px;}
+.pricing-card .price {font-size:2rem;font-weight:bold;color:#f39c12;margin-bottom:15px;}
+.pricing-card button {padding:10px 20px;border:none;border-radius:6px;background:#f39c12;color:#fff;cursor:pointer;transition:0.3s;}
+.pricing-card button:hover {background:#e67e22;}
+
+/* ===== TESTIMONIALS ===== */
+.testimonials {padding:80px 20px;text-align:center;background:#fff;}
+.testimonials h2 {font-size:2.5rem;margin-bottom:50px;}
+.testimonial-track {display:flex;transition:transform 0.5s ease-in-out;}
+.testimonial-item {min-width:300px;margin:0 10px;background:#f5f5f5;padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.1);opacity:0;transform:translateY(20px);}
+.testimonial-item img {width:60px;height:60px;border-radius:50%;margin-bottom:15px;}
+.testimonial-item p {font-size:1rem;color:#333;}
+
+/* ===== CONTACT ===== */
+.contact {padding:80px 20px;text-align:center;}
+.contact h2 {font-size:2.5rem;margin-bottom:40px;}
+.contact form {max-width:550px;margin:0 auto;display:flex;flex-direction:column;gap:15px;}
+.contact input,.contact textarea {padding:12px;border-radius:6px;border:1px solid #ccc;font-size:1rem;}
+.contact button {padding:12px;border:none;border-radius:6px;background-color:#f39c12;color:#fff;font-weight:bold;font-size:1rem;cursor:pointer;transition:0.3s;}
+.contact button:hover {background-color:#e67e22;}
+.contact p {margin-top:15px;font-weight:bold;}
+
+/* ===== FOOTER ===== */
+footer {background-color:#0a3d62;color:#fff;padding:30px 20px;text-align:center;}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInDown {0%{opacity:0;transform:translateY(-20px);}100%{opacity:1;transform:translateY(0);}}
+@keyframes fadeInUp {0%{opacity:0;transform:translateY(20px);}100%{opacity:1;transform:translateY(0);}}
+@keyframes fadeIn {0%{opacity:0;}100%{opacity:1;}}
+
+@media(max-width:768px){nav ul{flex-direction:column;gap:10px;}.service-cards,.counter-container,.pricing-cards,.testimonial-track{flex-direction:column;align-items:center;}}
+/* WhatsApp Floating */
+.whatsapp-btn {position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px 20px;border-radius:50px;font-size:1.2rem;box-shadow:0 4px 10px rgba(0,0,0,0.2);cursor:pointer;z-index:10000;}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+<div class="logo">DK Digital</div>
+<nav>
+<ul>
+<li><a href="#hero">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#counters">Stats</a></li>
+<li><a href="#pricing">Pricing</a></li>
+<li><a href="#testimonials">Testimonials</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<a href="#contact" class="cta-btn">Book a Consult</a>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+<div class="hero-content">
+<h1>Your Business Deserves to Be Everywhere Your Customers Are</h1>
+<p>Google, ChatGPT, TikTok. Everywhere. DK Digital ensures your business is unstoppable online.</p>
+<div class="hero-buttons">
+<a href="#contact" class="cta-btn">Book A Consult</a>
+<a href="#contact" class="cta-btn">Get a Quick Audit</a>
+</div>
+</div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+<h2>Our Services</h2>
+<div class="service-cards">
+<div class="card">
+<h3>SEO Services</h3>
+<p>On-page SEO, keyword optimization, technical SEO. Shopify, WordPress, all websites optimized.</p>
+<a href="#contact">Learn More</a>
+</div>
+<div class="card">
+<h3>Digital Marketing & Social Media</h3>
+<p>Google Ads, Facebook Ads, TikTok campaigns. Boost your online presence effectively.</p>
+<a href="#contact">Learn More</a>
+</div>
+<div class="card">
+<h3>WordPress & Website Optimization</h3>
+<p>Website speed, structure, maintenance, and SEO improvements for all platforms.</p>
+<a href="#contact">Learn More</a>
+</div>
+<div class="card">
+<h3>Link Building & Authority Growth</h3>
+<p>Backlinks, PR, guest posting, and authority-building strategies for better search rankings.</p>
+<a href="#contact">Learn More</a>
+</div>
+</div>
+</section>
+
+<!-- COUNTERS -->
+<section class="counters" id="counters">
+<h2>Our Impact</h2>
+<div class="counter-container">
+<div class="counter-box"><h3 class="counter" data-target="120">0</h3><p>Happy Clients</p></div>
+<div class="counter-box"><h3 class="counter" data-target="350">0</h3><p>Projects Completed</p></div>
+<div class="counter-box"><h3 class="counter" data-target="500K">0</h3><p>Visitors Optimized</p></div>
+</div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="pricing">
+<h2>Packages</h2>
+<div class="pricing-cards">
+<div class="pricing-card">
+<h3>Starter</h3>
+<p>Perfect for small businesses and beginners.</p>
+<div class="price">$299</div>
+<button>Get Started</button>
+</div>
+<div class="pricing-card">
+<h3>Professional</h3>
+<p>Full-service marketing for growing companies.</p>
+<div class="price">$599</div>
+<button>Get Started</button>
+</div>
+<div class="pricing-card">
+<h3>Enterprise</h3>
+<p>Comprehensive solutions for large businesses.</p>
+<div class="price">$999</div>
+<button>Get Started</button>
+</div>
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+<h2>What Our Clients Say</h2>
+<div class="testimonial-track">
+<div class="testimonial-item"><img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client"><p>"DK Digital transformed our online visibility. Traffic and sales skyrocketed!"</p></div>
+<div class="testimonial-item"><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client"><p>"Professional, fast, and highly results-driven. Highly recommend!"</p></div>
+<div class="testimonial-item"><img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Client"><p>"From SEO to social media, they handled everything perfectly."</p></div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<form>
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="tel" name="phone" placeholder="Phone Number" required>
+<input type="email" name="email" placeholder="Email Address" required>
+<input type="text" name="subject" placeholder="Subject">
+<textarea name="message" placeholder="Message" rows="5"></textarea>
+<button type="submit">Start Consult</button>
+</form>
+<p>Call / WhatsApp: +254 711 034 6425</p>
+<p>Email: davidochieng99@gmail.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>Quick Links: Home | About | Services | Stats | Pricing | Testimonials | Contact</p>
+<p>Follow Us: YouTube | Facebook | LinkedIn | TikTok</p>
+<p>© 2025 DK Digital. All rights reserved.</p>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/2547110346425" class="whatsapp-btn" target="_blank">WhatsApp</a>
+
+<!-- JS -->
+<script>
+// Smooth Scroll
+document.querySelectorAll('nav ul li a, .cta-btn').forEach(link=>{
+link.addEventListener('click',function(e){
+e.preventDefault();
+const target=document.querySelector(this.getAttribute('href'));
+if(target){target.scrollIntoView({behavior:'smooth'});}
+});
+});
+
+// Contact Form
+const contactForm=document.querySelector('.contact form');
+contactForm.addEventListener('submit',function(e){
+e.preventDefault();
+const name=this.name.value.trim();
+const phone=this.phone.value.trim();
+const email=this.email.value.trim();
+const message=this.message.value.trim();
+if(name===''||phone===''||email===''||message===''){alert('Please fill all required fields!'); return;}
+alert('Thank you, '+name+'! We received your message. We will contact you soon.');
+this.reset();
+});
+
+// Fade-in on Scroll
+const faders=document.querySelectorAll('.card,.counter-box,.pricing-card,.testimonial-item,.about img');
+const appearOptions={threshold:0.3,rootMargin:"0px 0px -50px 0px"};
+const appearOnScroll=new IntersectionObserver(function(entries,observer){
+entries.forEach(entry=>{
+if(!entry.isIntersecting)return;
+entry.target.style.opacity=1;
+entry.target.style.transform='translateY(0)';
+observer.unobserve(entry.target);
+});
+},appearOptions);
+faders.forEach(fader=>{
+fader.style.opacity=0;
+fader.style.transform='translateY(20px)';
+appearOnScroll.observe(fader);
+});
+
+// Counters Animation
+const counters=document.querySelectorAll('.counter');
+counters.forEach(counter=>{
+const updateCount=()=>{
+let target=counter.getAttribute('data-target').replace('K','000');
+let count=parseInt(counter.innerText);
+let increment=Math.ceil(target/200);
+if(count<target){counter.innerText=parseInt(count+increment); setTimeout(updateCount,20);}
+else{counter.innerText=counter.getAttribute('data-target');}
+};
+updateCount();
+});
+</script>
+
+</body>
+</html>
