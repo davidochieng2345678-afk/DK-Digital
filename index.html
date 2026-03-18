@@ -802,5 +802,17 @@ updateCount();
 </section>
  <a href="#contact" class="sticky-cta">Get Free SEO Audit</a>
 
+ <a href="#contact" id="scroll-cta" style="display:none;position:fixed;bottom:80px;right:20px;background:#0a3d62;color:#fff;padding:12px 20px;border-radius:6px;font-weight:bold;z-index:9999;text-decoration:none;">Request Free SEO Audit</a>
+
+<script>
+  window.addEventListener('scroll', function() {
+    const scrollCTA = document.getElementById('scroll-cta');
+    if (window.scrollY > document.body.scrollHeight * 0.5) {
+      scrollCTA.style.display = 'block';
+    } else {
+      scrollCTA.style.display = 'none';
+    }
+  });
+</script>
 </body>
 </html>
