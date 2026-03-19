@@ -983,5 +983,33 @@ updateCount();
     }
   });
 </script>
+<script>
+  // Smooth scroll for all anchor links
+  document.querySelectorAll('a[href*="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      const urlParts = href.split('#');
+      const hash = urlParts[1];
+
+      if (hash) {
+        const target = document.getElementById(hash);
+
+        if (target) {
+          e.preventDefault(); // Prevent default jump
+          
+          // Smooth scroll
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+
+          // Update URL without jumping
+          history.pushState(null, null, '#' + hash);
+        }
+      }
+    });
+  });
+</script>
+  
 </body>
 </html>
