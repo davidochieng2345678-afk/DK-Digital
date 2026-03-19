@@ -7,80 +7,37 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Anchors / Sections -->
+  <!-- Blog Pages -->
   <url>
-    <loc>https://dkdigitalseo.online/#about</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#services</loc>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#stats</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#pricing</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#blog</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#testimonials</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#portfolio</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#faq</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dkdigitalseo.online/#contact</loc>
-    <priority>0.9</priority>
+    <loc>https://dkdigitalseo.online/blog/what-is-seo.html</loc>
   </url>
 
-  <!-- Digital / Extra Pages -->
   <url>
-    <loc>https://dkdigitalseo.online/digital</loc>
-    <priority>0.7</priority>
+    <loc>https://dkdigitalseo.online/blog/best-seo-services-nairobi-2026.html</loc>
   </url>
+
   <url>
-    <loc>https://dkdigitalseo.online/reviews</loc>
-    <priority>0.8</priority>
+    <loc>https://dkdigitalseo.online/blog/how-much-does-seo-cost-kenya-2026.html</loc>
   </url>
+
   <url>
-    <loc>https://dkdigitalseo.online/resources</loc>
-    <priority>0.7</priority>
+    <loc>https://dkdigitalseo.online/blog/why-website-not-ranking-google-2026.html</loc>
   </url>
+
   <url>
-    <loc>https://dkdigitalseo.online/case-studies</loc>
-    <priority>0.8</priority>
+    <loc>https://dkdigitalseo.online/blog/local-seo-small-business-nairobi.html</loc>
   </url>
+
   <url>
-    <loc>https://dkdigitalseo.online/blog/seo-tips</loc>
-    <priority>0.7</priority>
+    <loc>https://dkdigitalseo.online/blog/shopify-seo-guide-beginners-2026.html</loc>
   </url>
+
   <url>
-    <loc>https://dkdigitalseo.online/blog/shopify-seo-guide</loc>
-    <priority>0.7</priority>
+    <loc>https://dkdigitalseo.online/blog/on-page-seo-checklist-2026.html</loc>
   </url>
+
   <url>
-    <loc>https://dkdigitalseo.online/blog/local-seo-strategies</loc>
-    <priority>0.7</priority>
+    <loc>https://dkdigitalseo.online/blog/technical-seo-explained-2026.html</loc>
   </url>
-  <url>
-    <loc>https://dkdigitalseo.online/blog/google-ranking-factors</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-  <loc>https://dkdigitalseo.online/blog/what-is-seo</loc>
-  <priority>0.8</priority>
-</url>
 
 </urlset>
