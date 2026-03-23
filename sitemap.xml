@@ -1,203 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Homepage -->
-  <url>
-    <loc>https://dkdigitalseo.online/</loc>
-    <priority>1.0</priority>
-  </url>
+<!-- Homepage -->
 <url>
-  <loc>https://dkdigitalseo.online/seo-small-business</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/seo-online-stores</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/seo-startups-kenya</loc>
+  <loc>https://dkdigitalseo.online/</loc>
+  <priority>1.0</priority>
 </url>
 
-https://dkdigitalseo.online/website-traffic-growth-seo/
-  
-<url>
-  <loc>https://dkdigitalseo.online/fix-seo-issues</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/google-business-optimization</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/traffic-growth-seo</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/local-seo-kenya</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/seo-services-nairobi</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/monthly-seo-management</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/conversion-optimization</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/seo-competitor-analysis</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/mobile-seo</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/keyword-research</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/website-seo-audit</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/ecommerce-seo-services</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/shopify-seo-services</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/local-seo-nairobi</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/on-page-seo</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/off-page-seo</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/technical-seo-audit</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/seo-analytics-reporting</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/google-maps-optimization</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/citation-building</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/seo-content-writing</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/seo-consultation</loc>
-</url>
+<!-- SERVICES (no /services/) -->
+<url><loc>https://dkdigitalseo.online/seo-small-business/</loc></url>
+<url><loc>https://dkdigitalseo.online/seo-online-stores/</loc></url>
+<url><loc>https://dkdigitalseo.online/seo-startups-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/website-traffic-growth-seo/</loc></url>
+<url><loc>https://dkdigitalseo.online/fix-seo-issues/</loc></url>
+<url><loc>https://dkdigitalseo.online/google-business-optimization/</loc></url>
+<url><loc>https://dkdigitalseo.online/traffic-growth-seo/</loc></url>
+<url><loc>https://dkdigitalseo.online/local-seo-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/seo-services-nairobi/</loc></url>
+<url><loc>https://dkdigitalseo.online/monthly-seo-management/</loc></url>
+<url><loc>https://dkdigitalseo.online/conversion-optimization/</loc></url>
+<url><loc>https://dkdigitalseo.online/seo-competitor-analysis/</loc></url>
+<url><loc>https://dkdigitalseo.online/mobile-seo/</loc></url>
+<url><loc>https://dkdigitalseo.online/keyword-research/</loc></url>
+<url><loc>https://dkdigitalseo.online/website-seo-audit/</loc></url>
+<url><loc>https://dkdigitalseo.online/ecommerce-seo-services/</loc></url>
+<url><loc>https://dkdigitalseo.online/shopify-seo-services/</loc></url>
+<url><loc>https://dkdigitalseo.online/local-seo-nairobi/</loc></url>
+<url><loc>https://dkdigitalseo.online/on-page-seo/</loc></url>
+<url><loc>https://dkdigitalseo.online/off-page-seo/</loc></url>
+<url><loc>https://dkdigitalseo.online/technical-seo-audit/</loc></url>
+<url><loc>https://dkdigitalseo.online/seo-analytics-reporting/</loc></url>
+<url><loc>https://dkdigitalseo.online/google-maps-optimization/</loc></url>
+<url><loc>https://dkdigitalseo.online/citation-building/</loc></url>
+<url><loc>https://dkdigitalseo.online/seo-content-writing/</loc></url>
+<url><loc>https://dkdigitalseo.online/seo-consultation/</loc></url>
 
-https://dkdigitalseo.online/blog/the-power-of-backlinks-kenya/
-  
-https://dkdigitalseo.online/blog/voice-search-seo-kenya/
-  
-  <url>
-  <loc>https://dkdigitalseo.online/blog/google-search-console-kenya-growth-story.html</loc>
-</url>
-  <url>
-  <loc>https://dkdigitalseo.online/blog/google-reviews-impact-kenya-seo.html</loc>
-</url>
-  <url>
-  <loc>https://dkdigitalseo.online/blog/google-local-pack-kenya-ranking-story.html</loc>
-</url>
-  <url>
-  <loc>https://dkdigitalseo.online/blog/café-got-found-through-local-citations</loc>
-</url>
-<url>
-  <loc>https://dkdigitalseo.online/blog/near-me-searches-kenya-business-growth.html</loc>
-</url>
-  <url>
-  <loc>https://dkdigitalseo.online/blog/kenya-keyword-research-success-story.html</loc>
-</url>
-  
-  <url>
-  <loc>https://dkdigitalseo.online/blog/journey-nairobi-business-google-ranking.html</loc>
-</url>
-  
-<!-- New SEO Blog Posts -->
-https://dkdigitalseo.online/blog/from-invisible-to-unstoppable/
-  
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/step-by-step-guide-improving-google-rankings-nairobi.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/local-seo-strategies-mombasa-smes.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/shopify-seo-kenya-boost-organic-traffic.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/free-seo-tools-kenyan-startups-2026.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/seo-vs-paid-ads-kenya-roi.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/measuring-seo-success-kenya-metrics.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/content-marketing-strategies-kenya.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/backlinks-seo-kenyan-websites.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/common-seo-mistakes-kenya.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/mobile-seo-in-kenya</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/voice-search-seo-kenya.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/seo-trends-kenya-2026.html</loc>
-</url>
-
-<url>
-  <loc>https://dkdigitalseo.online/blog/local-seo-case-study-kenya.html</loc>
-</url>
-  
-  <url>
-    <loc>https://dkdigitalseo.online/blog/what-is-seo.html</loc>
-  </url>
-
-  <url>
-    <loc>https://dkdigitalseo.online/blog/best-services-nairobi
-  </url>
-
-  <url>
-    <loc>https://dkdigitalseo.online/blog/how-much-does-seo-cost-kenya-2026.html</loc>
-  </url>
-
-  <url>
-    <loc>https://dkdigitalseo.online/blog/why-website-not-ranking-google-2026.html</loc>
-  </url>
-
-  <url>
-    <loc>https://dkdigitalseo.online/blog/local-seo-small-business-nairobi.html</loc>
-  </url>
-
-  <url>
-    <loc>https://dkdigitalseo.online/blog/shopify-seo-guide-beginners-2026.html</loc>
-  </url>
-
-  <url>
-    <loc>https://dkdigitalseo.online/blog/on-page-seo-checklist-2026.html</loc>
-  </url>
-
-  <url>
-    <loc>https://dkdigitalseo.online/blog/technical-seo-explained-2026</loc>
-  </url>
+<!-- BLOG -->
+<url><loc>https://dkdigitalseo.online/blog/from-invisible-to-unstoppable/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/power-of-backlinks-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/voice-search-seo-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/google-search-console-kenya-growth-story/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/google-reviews-impact-kenya-seo/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/google-local-pack-kenya-ranking-story/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/cafe-local-citations-case-study/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/near-me-searches-kenya-business-growth/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/kenya-keyword-research-success-story/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/journey-nairobi-business-google-ranking/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/step-by-step-guide-improving-google-rankings-nairobi/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/local-seo-strategies-mombasa-smes/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/shopify-seo-kenya-boost-organic-traffic/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/free-seo-tools-kenyan-startups-2026/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/seo-vs-paid-ads-kenya-roi/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/measuring-seo-success-kenya-metrics/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/content-marketing-strategies-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/backlinks-seo-kenyan-websites/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/common-seo-mistakes-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/mobile-seo-in-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/seo-trends-kenya-2026/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/local-seo-case-study-kenya/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/what-is-seo/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/best-services-nairobi/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/how-much-does-seo-cost-kenya-2026/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/why-website-not-ranking-google-2026/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/local-seo-small-business-nairobi/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/shopify-seo-guide-beginners-2026/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/on-page-seo-checklist-2026/</loc></url>
+<url><loc>https://dkdigitalseo.online/blog/technical-seo-explained-2026/</loc></url>
 
 </urlset>
