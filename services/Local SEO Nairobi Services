@@ -177,6 +177,89 @@ Boost your local visibility with <b>Local SEO Nairobi services</b>. Explore our 
   ]
 }
 </script>
+<!-- MOBILE RESPONSIVE FIX -->
+<style>
+@media(max-width:768px){
+  .grid-2{
+    grid-template-columns:1fr !important;
+  }
+}
+</style>
+
+<!-- 🔥 IRRESISTIBLE OFFER -->
+<section style="background:#fff3e0;padding:40px 20px;border-radius:12px;margin-top:30px;">
+  <h2 style="text-align:center;">🔥 Get a FREE Local SEO Audit + Competitor Analysis</h2>
+  
+  <p style="text-align:center;font-size:18px;max-width:800px;margin:0 auto;">
+    Discover exactly why your business is NOT ranking on Google in Nairobi — and get a step-by-step plan to fix it.
+  </p>
+
+  <div style="max-width:800px;margin:30px auto;">
+    <h3>🎯 What You’ll Get:</h3>
+    <ul style="line-height:1.8;">
+      <li>✔ Full Google Business Profile audit (visibility & ranking issues)</li>
+      <li>✔ Competitor analysis (see who is outranking you and why)</li>
+      <li>✔ High-converting local keyword opportunities in Nairobi</li>
+      <li>✔ Website SEO errors affecting your rankings</li>
+      <li>✔ NAP consistency & citation audit</li>
+      <li>✔ 3 QUICK-WIN fixes to improve rankings fast</li>
+    </ul>
+  </div>
+
+  <div style="text-align:center;margin-top:20px;">
+    <p style="font-weight:bold;color:#e67e22;">
+      💰 Value: $100 — Today: FREE (Limited Spots)
+    </p>
+    
+    <a href="#seo-audit-form" style="background:#e67e22;color:#fff;padding:15px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">
+      🚀 Claim Your Free SEO Audit Now
+    </a>
+  </div>
+</section>
+
+<!-- 🧠 BEFORE VS AFTER -->
+<section style="margin-top:50px;background:#f8f9fa;padding:40px 20px;border-radius:12px;">
+  <h2 style="text-align:center;">🧠 From Invisible to Unstoppable</h2>
+
+  <div class="grid-2" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:900px;margin:30px auto;">
+    
+    <!-- BEFORE -->
+    <div style="background:#fff;padding:20px;border-radius:10px;border:2px solid #e74c3c;">
+      <h3 style="color:#e74c3c;">❌ BEFORE</h3>
+      <ul>
+        <li>Not appearing on Google</li>
+        <li>No visibility on Google Maps</li>
+        <li>Few or no customer calls</li>
+        <li>Low website traffic</li>
+        <li>Competitors taking your customers</li>
+      </ul>
+    </div>
+
+    <!-- AFTER -->
+    <div style="background:#fff;padding:20px;border-radius:10px;border:2px solid #27ae60;">
+      <h3 style="color:#27ae60;">✅ AFTER</h3>
+      <ul>
+        <li>Ranking on Google search results</li>
+        <li>Visible on Google Maps (Local Pack)</li>
+        <li>Consistent daily calls & leads</li>
+        <li>Increased website traffic</li>
+        <li>More customers & revenue growth</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <p style="text-align:center;font-size:18px;max-width:700px;margin:0 auto;">
+    The difference between struggling and growing online is <b>visibility</b>.  
+    Local SEO puts your business in front of customers who are ready to buy.
+  </p>
+
+  <div style="text-align:center;margin-top:20px;">
+    <a href="#seo-audit-form" style="background:#27ae60;color:#fff;padding:15px 30px;border-radius:6px;text-decoration:none;font-weight:bold;">
+      🚀 Start Your Transformation Today
+    </a>
+  </div>
+</section>
 
 <!-- Organization Schema -->
 <script type="application/ld+json">
