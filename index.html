@@ -612,28 +612,6 @@ footer {background-color:#0a3d62;color:#fff;padding:30px 20px;text-align:center;
 </nav>
 
 <script>
-  // Mobile menu toggle
-  const menuToggle = document.getElementById('menu-toggle');
-  const menu = document.getElementById('menu');
-
-  menuToggle.addEventListener('click', () => {
-    if (menu.style.display === 'flex' || menu.style.display === 'block') {
-      menu.style.display = 'none';
-    } else {
-      menu.style.display = 'flex';
-    }
-  });
-
-  // Mobile dropdown toggle
-  const dropdowns = document.querySelectorAll('nav li.has-dropdown > a');
-  dropdowns.forEach(drop => {
-    drop.addEventListener('click', (e) => {
-      e.preventDefault();
-      const parentLi = drop.parentElement;
-      parentLi.classList.toggle('open');
-    });
-  });
-</script>
 
 
 
