@@ -637,6 +637,19 @@ footer {background-color:#0a3d62;color:#fff;padding:30px 20px;text-align:center;
   });
 </script>
 
+<!-- Optional: simple JS for dropdown hover -->
+<script>
+  const dropdowns = document.querySelectorAll('nav li[position]');
+  dropdowns.forEach(drop => {
+    drop.addEventListener('mouseenter', () => {
+      drop.querySelector('ul').style.display = 'block';
+    });
+    drop.addEventListener('mouseleave', () => {
+      drop.querySelector('ul').style.display = 'none';
+    });
+  });
+</script>
+  
 
 
   
