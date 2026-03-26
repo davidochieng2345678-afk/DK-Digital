@@ -182,35 +182,165 @@ Explore related services:
 </div>
 </section>
 
-<!-- FORM -->
-<section id="seo-audit-form">
-<div class="container">
-<div class="card">
-<h2>Get Your Free $100 SEO Audit</h2>
+<section class="seo-form-section">
+  <h2>Request Your Free SEO Audit 🚀</h2>
+  <p>Discover how we can improve your Google rankings, traffic, and sales with a personalized audit.</p>
 
-<form action="https://formspree.io/f/xzzvgzqn" method="POST">
+  <form action="https://formspree.io/f/xpqygbzy" method="POST" class="seo-form">
 
-<div class="form-group">
-<input type="email" name="email" placeholder="Your Email" required>
-</div>
+    <!-- Hidden tracking fields -->
+    <input type="hidden" name="source" value="Service Page">
+    <input type="hidden" name="service" value="Fix Google Ranking Issues Kenya | Recover Rankings & Traffic Fast">
+    <input type="hidden" name="_subject" value="🔥 New Service Lead">
+    <input type="hidden" name="_replyto" value="info@dkdigitalseo.online">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_redirect" value="https://dkdigitalseo.online/thank-you.html">
 
-<div class="form-group">
-<input type="url" name="website" placeholder="Your Website URL" required>
-</div>
+    <div class="form-group">
+      <input type="text" name="name" required>
+      <label>Name</label>
+    </div>
 
-<div class="form-group">
-<textarea name="message" placeholder="Describe your ranking issue" rows="4" required></textarea>
-</div>
+    <div class="form-group">
+      <input type="email" name="email" required>
+      <label>Email</label>
+    </div>
 
-<button type="submit" class="cta-btn" style="width:100%;">Request Audit</button>
+    <div class="form-group">
+      <input type="url" name="website" required>
+      <label>Website URL</label>
+    </div>
 
-</form>
+    <div class="form-group">
+      <textarea name="message" rows="5" required></textarea>
+      <label>Business Details / Goals</label>
+    </div>
 
-<p style="text-align:center;margin-top:10px;">📞 Call/WhatsApp: 0710346425</p>
+    <button type="submit">🚀 Request Free Audit</button>
 
-</div>
-</div>
+  </form>
+
+  <p class="form-note">
+    ✔ No commitment • ✔ Free consultation • ✔ Results-driven strategy
+  </p>
+  <p class="form-contact">
+    📞 Call/WhatsApp: 0710346425
+  </p>
 </section>
+
+<style>
+/* SECTION STYLING */
+.seo-form-section {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.seo-form-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.seo-form-section p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* FORM STYLING */
+.seo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-group {
+  position: relative;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 16px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.form-group label {
+  position: absolute;
+  left: 12px;
+  top: 16px;
+  color: #999;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+/* Floating label effect */
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 10px;
+  font-size: 0.85rem;
+  color: #f39c12;
+  background: #fff;
+  padding: 0 5px;
+}
+
+/* BUTTON */
+.seo-form button {
+  padding: 16px;
+  background: #f39c12;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.seo-form button:hover {
+  background: #e67e22;
+}
+
+/* NOTES */
+.form-note {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+.form-contact {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .seo-form-section {
+    padding: 30px 20px;
+  }
+}
+</style>
+
+<script>
+// Optional: smooth scroll to form when page loads with hash
+document.addEventListener("DOMContentLoaded", () => {
+  if(window.location.hash === "#seo-audit-form") {
+    document.querySelector(".seo-form-section").scrollIntoView({behavior: "smooth"});
+  }
+});
+</script>
+  
+
+
 
 <!-- SERVICE SCHEMA -->
 <script type="application/ld+json">
