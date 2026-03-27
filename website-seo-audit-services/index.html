@@ -11,6 +11,15 @@
 </head>
 
 <body>
+  <script>
+document.querySelectorAll(".faq-question").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const answer = btn.nextElementSibling;
+    answer.style.display =
+      answer.style.display === "block" ? "none" : "block";
+  });
+});
+</script>
 
 <section style="padding:50px; max-width:1000px; margin:auto; font-family:Arial; line-height:1.9;">
 
