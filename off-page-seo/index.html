@@ -306,7 +306,54 @@ ul li {
 
 </section>
 
+/* Accordion Buttons */
+.accordion {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background: #f3f4f6;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s;
+  position: relative;
+}
 
+.accordion:hover {
+  background: #e5e7eb;
+}
+
+/* Plus / Minus Icon */
+.accordion::after {
+  content: '+';
+  position: absolute;
+  right: 20px;
+  font-size: 18px;
+}
+
+.accordion.active::after {
+  content: '−';
+}
+
+/* Panel */
+.panel {
+  max-height: 0;
+  overflow: hidden;
+  background: #ffffff;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+  border-left: 3px solid #1E3A8A;
+  margin-bottom: 10px;
+}
+
+.panel p {
+  padding: 10px 0;
+  color: #374151;
+}
 
 
 <!-- CTA -->
