@@ -309,13 +309,152 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 <h2>Our Promise</h2>
 <p>We use proven, ethical link-building strategies. If you don’t see improved authority and rankings, we refine our approach until results are achieved.</p>
 </section>
-
-<!-- TESTIMONIALS -->
+  
+  <!-- TESTIMONIALS -->
 <section style="margin-top:40px;">
 <h2>What Our Clients Say</h2>
 <p><b>⭐⭐⭐⭐⭐</b><br>"DK Digital SEO helped our site gain high-quality backlinks. Our Google rankings and traffic have skyrocketed!"</p>
 <p><b>⭐⭐⭐⭐⭐</b><br>"Professional, transparent, and results-driven link building. Highly recommended for any business."</p>
 </section>
+
+<style>
+.testimonials {
+  max-width:1100px;
+  margin:50px auto;
+  padding:20px;
+}
+
+.testimonial-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+}
+
+.testimonial {
+  background:#fff;
+  padding:25px;
+  border-radius:12px;
+  border:1px solid #e5e7eb;
+  transition:0.3s;
+}
+
+.testimonial:hover {
+  transform:translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.05);
+}
+
+.stars {
+  color:#f39c12;
+  margin-bottom:10px;
+}
+
+.cta-final {
+  text-align:center;
+  background:linear-gradient(135deg,#1e3a8a,#2563eb);
+  color:#fff;
+  padding:50px 20px;
+  border-radius:12px;
+  margin:50px auto;
+  max-width:900px;
+}
+
+.cta-final a {
+  display:inline-block;
+  margin-top:20px;
+  background:#f39c12;
+  color:#fff;
+  padding:15px 30px;
+  border-radius:8px;
+  font-weight:bold;
+}
+</style>
+
+<section class="testimonials">
+
+<h2 style="text-align:center; margin-bottom:30px;">⭐ What Our Clients Say</h2>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+<div class="stars">★★★★★</div>
+<p>“After struggling with rankings for months, their off-page SEO strategy helped us rank on page 1 for competitive keywords in Nairobi. Traffic and leads increased significantly.”</p>
+<b>— James M., Nairobi Business Owner</b>
+</div>
+
+
+
+<div class="testimonial">
+<div class="stars">★★★★★</div>
+<p>“The quality of backlinks was excellent. Within 3 months, our website authority improved and we started getting consistent organic sales.”</p>
+<b>— Sarah W., E-commerce Store</b>
+</div>
+
+<div class="testimonial">
+<div class="stars">★★★★★</div>
+<p>“Professional, transparent, and results-driven. Their link building service is one of the best in Kenya.”</p>
+<b>— Brian K., Startup Founder</b>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="cta-final">
+<h2>🚀 Ready to Rank Higher on Google?</h2>
+<p>Get a free SEO audit and discover exactly how to increase your rankings, traffic, and sales using proven off-page SEO strategies.</p>
+
+<a href="#seo-audit-form">Get Your Free SEO Audit →</a>
+
+<p style="margin-top:15px; font-size:14px;">
+✔ No risk ✔ No commitment ✔ Actionable insights
+</p>
+</section>
+
+<!-- ================= REVIEW SCHEMA ================= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Off-Page SEO & Link Building Services Kenya",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "3"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": "James M.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Their off-page SEO strategy helped us rank on page 1 and increase leads significantly."
+    },
+    {
+      "@type": "Review",
+      "author": "Sarah W.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Excellent backlinks and strong results within 3 months."
+    },
+    {
+      "@type": "Review",
+      "author": "Brian K.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Professional and results-driven SEO service."
+    }
+  ]
+}
+</script>
+
+
 
 <!-- URGENCY -->
 <p style="color:red;font-weight:bold;text-align:center;margin-top:30px;">
