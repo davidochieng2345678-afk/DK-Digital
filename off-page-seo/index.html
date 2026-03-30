@@ -30,7 +30,232 @@ button{cursor:pointer;}
 </head>
 <body>
 
+<!-- ================= CSS ================= -->
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  background:#f3f4f6;
+  color:#111827;
+  line-height:1.7;
+}
 
+/* HERO */
+.hero {
+  text-align:center;
+  padding:50px 20px;
+  background:linear-gradient(135deg,#eef2ff,#f9fafb);
+  border-radius:12px;
+}
+
+.hero h1 {
+  font-size:2rem;
+  margin-bottom:15px;
+}
+
+.hero p {
+  color:#555;
+  max-width:700px;
+  margin:auto;
+}
+
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  background:#f39c12;
+  color:#fff;
+  padding:14px 26px;
+  border-radius:8px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn:hover {
+  background:#d97706;
+  transform:translateY(-2px);
+}
+
+/* CONTENT */
+.section {
+  max-width:1100px;
+  margin:40px auto;
+  padding:20px;
+}
+
+.card {
+  background:#fff;
+  padding:25px;
+  border-radius:12px;
+  margin-bottom:20px;
+  border:1px solid #e5e7eb;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.05);
+}
+
+h2 {
+  margin-bottom:15px;
+  color:#1e3a8a;
+}
+
+h3 {
+  margin-top:15px;
+}
+
+ul {
+  padding-left:20px;
+}
+
+ul li {
+  margin-bottom:8px;
+}
+
+/* ACCORDION */
+.accordion {
+  cursor:pointer;
+  font-weight:bold;
+  padding:15px;
+  border:none;
+  width:100%;
+  text-align:left;
+  background:#f9fafb;
+  border-radius:8px;
+  margin-top:10px;
+  transition:0.3s;
+}
+
+.accordion:hover {
+  background:#eef2ff;
+}
+
+.panel {
+  display:none;
+  padding:15px;
+  background:white;
+  border:1px solid #eee;
+  border-radius:8px;
+  margin-top:5px;
+}
+
+/* CTA BOX */
+.cta {
+  text-align:center;
+  background:#eef6ff;
+  padding:30px;
+  border-radius:12px;
+  margin-top:30px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .hero h1 {
+    font-size:1.6rem;
+  }
+}
+</style>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <h1>Boost Your Website Authority with Off-Page SEO & Link Building</h1>
+  <p>Increase domain authority, gain high-quality backlinks, and rank higher on Google with expert Off-Page SEO services in Kenya.</p>
+  <a href="#seo-audit-form" class="btn">🚀 Get Free $100 SEO Audit</a>
+  <p style="margin-top:10px;color:#777;">✔ Free consultation ✔ No commitment ✔ Results-driven</p>
+</section>
+
+<!-- ================= CONTENT ================= -->
+<section class="section">
+
+<div class="card">
+<h2>Why Off-Page SEO Matters</h2>
+<p>Even with perfect on-page SEO, your website may struggle to rank without strong off-page signals. Google uses backlinks, brand mentions, and citations to measure authority and trust.</p>
+
+<p>Businesses targeting searches like <b>SEO services in Kenya</b> or <b>best digital marketing agency Nairobi</b> need strong link profiles to compete effectively.</p>
+</div>
+
+<div class="card">
+<h2>What Is Link Building?</h2>
+<p>Link building is the process of acquiring backlinks from other websites. These links act as trust signals that improve rankings and visibility.</p>
+
+<ul>
+<li>✔ High authority backlinks</li>
+<li>✔ Relevant niche links</li>
+<li>✔ Natural anchor text</li>
+</ul>
+</div>
+
+<!-- ACCORDION SECTION -->
+<div class="card">
+<h2>Our Off-Page SEO Strategies</h2>
+
+<button class="accordion">Guest Posting & Outreach</button>
+<div class="panel">
+<p>We publish high-quality content on authoritative blogs to earn contextual backlinks and increase brand visibility.</p>
+</div>
+
+<button class="accordion">Citation Building</button>
+<div class="panel">
+<p>We list your business in trusted directories to improve local SEO rankings in Nairobi and across Kenya.</p>
+</div>
+
+<button class="accordion">Niche Edits</button>
+<div class="panel">
+<p>We place your links in existing high-ranking articles for faster SEO impact.</p>
+</div>
+
+<button class="accordion">Digital PR</button>
+<div class="panel">
+<p>We secure mentions on blogs and media platforms to boost authority and trust.</p>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Benefits of Off-Page SEO</h2>
+<ul>
+<li>📈 Higher rankings on Google</li>
+<li>🌍 Increased organic traffic</li>
+<li>💼 Strong brand authority</li>
+<li>📞 More leads and inquiries</li>
+<li>💰 Increased conversions</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>How Long Does It Take?</h2>
+<p>Most businesses see results within 2–3 months, with stronger growth in 3–6 months depending on competition.</p>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+<h2>Start Building Authority Today</h2>
+<p>Get a free SEO audit and discover how to outrank competitors using powerful off-page SEO strategies.</p>
+<a href="#seo-audit-form" class="btn">Request Free Audit →</a>
+</div>
+
+</section>
+
+<!-- ================= JS ================= -->
+<script>
+// ACCORDION FUNCTION
+document.querySelectorAll(".accordion").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const panel = btn.nextElementSibling;
+
+    panel.style.display = panel.style.display === "block" ? "none" : "block";
+  });
+});
+
+// SMOOTH SCROLL
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href"))
+      .scrollIntoView({ behavior: "smooth" });
+  });
+});
+</script>
 
 <!-- TRUST SIGNALS -->
 <section style="background:#f8f9fa;padding:20px;border-radius:10px;margin:30px 0;text-align:center;">
