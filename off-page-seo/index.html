@@ -112,7 +112,80 @@ body {
     Fill out the form below and get a professional SEO audit for your website. We’ll analyze your site, spot issues, and provide actionable recommendations to boost your Google rankings and traffic.
   </p>
 
+<form action="https://formsubmit.co/davidochieng99@gmail.com" method="POST" 
+      style="display:flex;flex-direction:column;gap:20px;max-width:600px;margin:auto;background:#fff;padding:25px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.1);" 
+      id="seoAuditForm">
 
+  <!-- Hidden inputs for captcha and success redirect -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+  <!-- Name -->
+  <div class="form-group" style="position:relative;">
+    <input type="text" name="name" placeholder=" " required style="padding:12px 10px;width:100%;border:1px solid #ccc;border-radius:6px;">
+    <label style="position:absolute;top:-10px;left:10px;background:#fff;padding:0 5px;font-size:0.85rem;color:#555;">Your Name</label>
+  </div>
+
+  <!-- Email -->
+  <div class="form-group" style="position:relative;">
+    <input type="email" name="email" placeholder=" " required style="padding:12px 10px;width:100%;border:1px solid #ccc;border-radius:6px;">
+    <label style="position:absolute;top:-10px;left:10px;background:#fff;padding:0 5px;font-size:0.85rem;color:#555;">Your Email</label>
+  </div>
+
+  <!-- Website URL -->
+  <div class="form-group" style="position:relative;">
+    <input type="url" name="website" placeholder=" " required style="padding:12px 10px;width:100%;border:1px solid #ccc;border-radius:6px;">
+    <label style="position:absolute;top:-10px;left:10px;background:#fff;padding:0 5px;font-size:0.85rem;color:#555;">Your Website URL</label>
+  </div>
+
+  <!-- Message / SEO Goals -->
+  <div class="form-group" style="position:relative;">
+    <textarea name="message" placeholder=" " rows="4" required style="padding:12px 10px;width:100%;border:1px solid #ccc;border-radius:6px;"></textarea>
+    <label style="position:absolute;top:-10px;left:10px;background:#fff;padding:0 5px;font-size:0.85rem;color:#555;">Your SEO challenges / Goals</label>
+  </div>
+
+  <!-- Submit Button -->
+  <button type="submit" id="submitBtn" 
+          style="background:#f39c12;color:#fff;padding:14px 0;border:none;border-radius:6px;font-weight:bold;font-size:1rem;cursor:pointer;">
+    Request Free Audit
+  </button>
+
+  <!-- Success message (hidden by default) -->
+  <p id="successMessage" style="display:none;margin-top:15px;font-size:1rem;color:#27ae60;font-weight:bold;">
+    Thank you! Your SEO audit request has been received. We’ll contact you shortly.
+  </p>
+
+</form>
+
+<p style="margin-top:15px;font-size:0.9rem;color:#555;">No commitment • Free consultation • Results-driven strategy</p>
+
+<script>
+  // Optional: Show success message without redirect
+  const form = document.getElementById('seoAuditForm');
+  const successMsg = document.getElementById('successMessage');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault(); // prevent default submit
+    const formData = new FormData(form);
+    
+    fetch(form.action, {
+      method: 'POST',
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(response => {
+      if(response.ok) {
+        form.style.display = 'none';
+        successMsg.style.display = 'block';
+      } else {
+        alert('Oops! There was a problem submitting your form.');
+      }
+    })
+    .catch(error => {
+      alert('Oops! There was a problem submitting your form.');
+    });
+  });
+</script>
 <!-- CONTENT -->
 <section class="section">
 
