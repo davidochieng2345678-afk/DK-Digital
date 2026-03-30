@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Off-Page SEO & Link Building Services Kenya | DK Digital SEO</title>
+
+<meta name="description" content="Professional Off-Page SEO and link building services in Kenya. Increase rankings, authority, and traffic with proven strategies. Get a free SEO audit.">
+
+<link rel="canonical" href="https://dkdigitalseo.online/off-page-seo-link-building">
+
+<!-- ================= CSS ================= -->
+<style>
+body {
+  font-family: 'Inter', sans-serif;
+  margin:0;
+  background:#f3f4f6;
+  color:#111827;
+}
+
+/* HERO */
+.hero {
+  text-align:center;
+  padding:60px 20px;
+  background:linear-gradient(135deg,#eef2ff,#f9fafb);
+}
+
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  background:#f39c12;
+  color:#fff;
+  padding:14px 25px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+/* SECTION */
+.section {
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+/* CARD */
+.card {
+  background:#fff;
+  padding:25px;
+  border-radius:12px;
+  margin-bottom:20px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
+}
+
+/* ACCORDION */
+.accordion {
+  width:100%;
+  padding:15px;
+  border:none;
+  text-align:left;
+  background:#f3f4f6;
+  cursor:pointer;
+  border-radius:8px;
+  margin-top:10px;
+  position:relative;
+}
+
+.accordion::after {
+  content:'+';
+  position:absolute;
+  right:20px;
+}
+
+.accordion.active::after {
+  content:'−';
+}
+
+.panel {
+  max-height:0;
+  overflow:hidden;
+  transition:0.3s;
+  padding:0 15px;
+}
+
+/* CTA */
+.cta {
+  text-align:center;
+  padding:40px;
+  background:#eef6ff;
+  border-radius:12px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+<h1>Off-Page SEO & Link Building Services in Kenya</h1>
+<p>Boost your rankings, authority, and traffic with proven link building strategies.</p>
+<a href="#seo-audit-form" class="btn">🚀 Get Free SEO Audit</a>
+</section>
+
+<!-- CONTENT -->
+<section class="section">
+
+<div class="card">
+<h2>Why Off-Page SEO Matters</h2>
+<p>Off-page SEO helps your website build authority through backlinks, citations, and mentions.</p>
+</div>
+
+<div class="card">
+<h2>What Is Link Building?</h2>
+<p>Link building is the process of acquiring backlinks that improve rankings and visibility.</p>
+</div>
+
+<div class="card">
+<h2>Our Strategies</h2>
+
+<button class="accordion">Guest Posting Services Kenya</button>
+<div class="panel"><p>High-quality backlinks from authority blogs.</p></div>
+
+<button class="accordion">Citation Building Nairobi</button>
+<div class="panel"><p>Improve local SEO with business listings.</p></div>
+
+<button class="accordion">Niche Edits Backlinks</button>
+<div class="panel"><p>Insert links into high-ranking articles.</p></div>
+
+<button class="accordion">Digital PR & Brand Mentions</button>
+<div class="panel"><p>Boost authority through media exposure.</p></div>
+
+</div>
+
+<div class="card">
+<h2>Benefits</h2>
+<ul>
+<li>Higher rankings</li>
+<li>More traffic</li>
+<li>More leads</li>
+</ul>
+</div>
+
+<div class="cta">
+<h2>Start Ranking Higher Today</h2>
+<a href="#seo-audit-form" class="btn">Request Free Audit</a>
+</div>
+
+</section>
+
+<!-- ================= JS ================= -->
+<script>
+// ACCORDION
+document.querySelectorAll(".accordion").forEach(btn => {
+  btn.addEventListener("click", function () {
+
+    document.querySelectorAll(".accordion").forEach(other => {
+      if (other !== this) {
+        other.classList.remove("active");
+        other.nextElementSibling.style.maxHeight = null;
+      }
+    });
+
+    this.classList.toggle("active");
+
+    const panel = this.nextElementSibling;
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+});
+</script>
+
+<!-- ================= SCHEMA ================= -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Service",
+ "name": "Off-Page SEO & Link Building Services Kenya",
+ "provider": {
+   "@type": "Organization",
+   "name": "DK Digital SEO"
+ }
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [{
+   "@type": "Question",
+   "name": "What is off-page SEO?",
+   "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Off-page SEO includes backlinks and external signals that improve rankings."
+   }
+ }]
+}
+</script>
+
+</body>
+</html>
