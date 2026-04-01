@@ -414,6 +414,203 @@ function revealSections(){
 window.addEventListener('scroll', revealSections);
 revealSections();
 </script>
+  <!-- ================= STYLES ================= -->
+<style>
+.section-box {
+  background:#f8f9fa;
+  padding:25px;
+  margin:40px 0;
+  border-radius:12px;
+  line-height:1.8;
+  opacity:0;
+  transform:translateY(30px);
+  transition:0.5s;
+}
+.section-box.visible {
+  opacity:1;
+  transform:translateY(0);
+}
+.section-box h2 { color:#0a2540; }
+.section-box a { color:#f39c12; font-weight:bold; text-decoration:none; }
+.cta-btn {
+  background:#f39c12;
+  color:#fff;
+  padding:14px 28px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  display:inline-block;
+}
+.cta-btn:hover { background:#e67e22; }
+.whatsapp-float{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:#fff;
+  font-size:20px;
+  padding:15px 18px;
+  border-radius:50%;
+  text-decoration:none;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+  z-index:999;
+}
+</style>
+
+<!-- ================= TABLE OF CONTENTS ================= -->
+<div class="section-box">
+<h2>Quick Navigation</h2>
+<ul>
+<li><a href="#why">Why Shopify SEO Matters</a></li>
+<li><a href="#keywords">Keyword Research</a></li>
+<li><a href="#product">Product Optimization</a></li>
+<li><a href="#technical">Technical SEO</a></li>
+<li><a href="#content">Content Marketing</a></li>
+<li><a href="#backlinks">Backlinks</a></li>
+<li><a href="#faq">FAQs</a></li>
+</ul>
+</div>
+
+<!-- ================= CONTENT ================= -->
+
+<div id="why" class="section-box">
+<h2>Why Shopify SEO Matters</h2>
+<p>Most Shopify stores fail because customers can’t find them on Google.</p>
+<p>
+Use <a href="https://dkdigitalseo.online/seo-online-stores/">SEO for online stores</a> 
+to rank when customers are ready to buy.
+</p>
+<p>
+Startups can scale faster using 
+<a href="https://dkdigitalseo.online/seo-startups-kenya/">SEO strategies for startups</a>.
+</p>
+</div>
+
+<div id="keywords" class="section-box">
+<h2>Keyword Research</h2>
+<p>
+Use 
+<a href="https://dkdigitalseo.online/keyword-research/">keyword research services</a> 
+to find high-converting keywords.
+</p>
+<ul>
+<li>buy products online Kenya</li>
+<li>Shopify Nairobi delivery</li>
+<li>cheap online shopping Kenya</li>
+</ul>
+</div>
+
+<div id="product" class="section-box">
+<h2>Optimize Product Pages</h2>
+<p>
+Improve conversions using 
+<a href="https://dkdigitalseo.online/conversion-rate-optimization-services/">conversion optimization</a>.
+</p>
+</div>
+
+<div id="technical" class="section-box">
+<h2>Technical SEO</h2>
+<p>
+Fix issues using 
+<a href="https://dkdigitalseo.online/fix-google-ranking-issues-kenya/">ranking fixes</a>.
+</p>
+</div>
+
+<div id="content" class="section-box">
+<h2>Content Marketing</h2>
+<p>
+Grow traffic using 
+<a href="https://dkdigitalseo.online/website-traffic-growth-seo-kenya/">traffic growth SEO</a> 
+and 
+<a href="https://dkdigitalseo.online/traffic-growth-seo/">SEO strategies</a>.
+</p>
+</div>
+
+<div id="backlinks" class="section-box">
+<h2>Backlinks</h2>
+<p>
+Use 
+<a href="https://dkdigitalseo.online/seo-competitor-analysis-services/">competitor analysis</a>, 
+<a href="https://dkdigitalseo.online/local-seo-kenya/">local SEO</a>, 
+and 
+<a href="https://dkdigitalseo.online/google-business-optimization/">Google Business optimization</a>.
+</p>
+</div>
+
+<!-- ================= FAQ ================= -->
+<div id="faq" class="section-box">
+<h2>FAQs</h2>
+
+<h3>How long does Shopify SEO take?</h3>
+<p>3–6 months depending on competition.</p>
+
+<h3>Is SEO better than ads?</h3>
+<p>SEO brings long-term traffic while ads stop when you stop paying.</p>
+
+<h3>Can I do SEO myself?</h3>
+<p>Yes, but experts help you grow faster.</p>
+
+<h3>Why is my store not ranking?</h3>
+<p>Usually due to poor keywords, technical issues, or no backlinks.</p>
+
+<h3>Do backlinks matter?</h3>
+<p>Yes, they are one of Google’s top ranking factors.</p>
+</div>
+
+<!-- ================= CTA ================= -->
+<div class="section-box" style="text-align:center;">
+<h2>Ready to Grow Your Store?</h2>
+<p>Get a free SEO audit today.</p>
+
+<a href="mailto:info@dkdigitalseo.online" class="cta-btn">Request Audit</a>
+
+<br><br>
+
+<a href="https://wa.me/2547110346425" class="cta-btn" style="background:#25D366;">WhatsApp Us</a>
+</div>
+
+<!-- ================= WHATSAPP FLOAT ================= -->
+<a href="https://wa.me/2547110346425" class="whatsapp-float">💬</a>
+
+<!-- ================= JS ================= -->
+<script>
+// Scroll animation
+const sections = document.querySelectorAll('.section-box');
+function reveal(){
+  sections.forEach(sec=>{
+    if(sec.getBoundingClientRect().top < window.innerHeight - 100){
+      sec.classList.add('visible');
+    }
+  });
+}
+window.addEventListener('scroll', reveal);
+reveal();
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+  anchor.addEventListener("click", function(e){
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior:"smooth"
+    });
+  });
+});
+</script>
+
+<!-- ================= FAQ SCHEMA ================= -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{"@type": "Question","name": "How long does Shopify SEO take?","acceptedAnswer":{"@type": "Answer","text": "It takes about 3 to 6 months."}},
+{"@type": "Question","name": "Is SEO better than ads?","acceptedAnswer":{"@type": "Answer","text": "SEO provides long-term traffic unlike ads."}},
+{"@type": "Question","name": "Can I do SEO myself?","acceptedAnswer":{"@type": "Answer","text": "Yes, but experts help achieve faster results."}},
+{"@type": "Question","name": "Why is my store not ranking?","acceptedAnswer":{"@type": "Answer","text": "Due to poor keywords, technical issues, or lack of backlinks."}},
+{"@type": "Question","name": "Do backlinks matter?","acceptedAnswer":{"@type": "Answer","text": "Yes, they are a major ranking factor."}}
+]
+}
+</script>
 
 <!-- FOOTER -->
 <div class="footer">
