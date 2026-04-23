@@ -1473,22 +1473,38 @@ or
 
     <p style="font-size:0.9rem;">&copy; 2026 DK Digital SEO. All Rights Reserved.</p>
 <div style="margin-top:30px; padding-top:20px; border-top:1px solid #334155;">
-  <h4 style="color:#f39c12;">📄 All Pages & URLs</h4>
-  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:10px; font-size:0.85rem;">
-    <div>
-      <strong>Core Services:</strong><br>
-      <a href="https://dkdigitalseo.online/" style="color:#94a3b8; text-decoration:underline;">🏠 Home</a><br>
-      <a href="https://dkdigitalseo.online/seo-small-business" style="color:#94a3b8; text-decoration:underline;">📈 SEO for Small Businesses</a><br>
-      <a href="https://dkdigitalseo.online/conversion-rate-optimization-services" style="color:#94a3b8; text-decoration:underline;">📊 Conversion Rate Optimization</a>
+  <h4 style="color:#f39c12; cursor:pointer;" onclick="toggleUrls()">📄 All Pages & URLs ▼</h4>
+  <div id="urlsList" style="display:none; margin-top:15px;">
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:10px; font-size:0.85rem;">
+      <div>
+        <strong>Core Services:</strong><br>
+        <a href="https://dkdigitalseo.online/" target="_blank" style="color:#94a3b8; text-decoration:underline;">🏠 Home</a><br>
+        <a href="https://dkdigitalseo.online/seo-small-business" target="_blank" style="color:#94a3b8; text-decoration:underline;">📈 SEO for Small Businesses</a><br>
+        <a href="https://dkdigitalseo.online/conversion-rate-optimization-services" target="_blank" style="color:#94a3b8; text-decoration:underline;">📊 Conversion Rate Optimization</a>
+      </div>
+      <div>
+        <strong>Blog Posts:</strong><br>
+        <a href="https://dkdigitalseo.online/blog/best-services-nairobi/" target="_blank" style="color:#94a3b8; text-decoration:underline;">🏆 Best Services Nairobi</a><br>
+        <a href="https://dkdigitalseo.online/blog/local-seo-for-small-businesses-nairobi/" target="_blank" style="color:#94a3b8; text-decoration:underline;">📍 Local SEO Nairobi</a>
+      </div>
     </div>
-    <div>
-      <strong>Blog Posts:</strong><br>
-      <a href="https://dkdigitalseo.online/blog/best-services-nairobi/" style="color:#94a3b8; text-decoration:underline;">🏆 Best Services Nairobi</a><br>
-      <a href="https://dkdigitalseo.online/blog/local-seo-for-small-businesses-nairobi/" style="color:#94a3b8; text-decoration:underline;">📍 Local SEO Nairobi</a>
-    </div>
+    <p style="font-size:0.75rem; margin-top:15px;">📍 Click any link above (opens in new tab)</p>
   </div>
-  <p style="font-size:0.75rem; margin-top:15px;">📍 Click any link above to view the page</p>
 </div>
+
+<script>
+function toggleUrls() {
+  var x = document.getElementById("urlsList");
+  var heading = document.querySelector("h4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    heading.innerHTML = "📄 All Pages & URLs ▲";
+  } else {
+    x.style.display = "none";
+    heading.innerHTML = "📄 All Pages & URLs ▼";
+  }
+}
+</script>
 
     
   </div>
