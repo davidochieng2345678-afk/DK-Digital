@@ -5322,6 +5322,30 @@ updateCount();
     });
   });
 </script>
-  
+<script>
+// Automatic section navigation – no manual href updates needed
+function goToNextSection(btn) {
+    const sections = Array.from(document.querySelectorAll('article[id^="snippet-"]'));
+    const current = btn.closest('article');
+    const idx = sections.findIndex(s => s === current);
+    if (idx !== -1 && idx < sections.length - 1) {
+        sections[idx + 1].scrollIntoView({ behavior: 'smooth' });
+    } else {
+        alert("You've reached the last section.");
+    }
+}
+function goToPrevSection(btn) {
+    const sections = Array.from(document.querySelectorAll('article[id^="snippet-"]'));
+    const current = btn.closest('article');
+    const idx = sections.findIndex(s => s === current);
+    if (idx > 0) {
+        sections[idx - 1].scrollIntoView({ behavior: 'smooth' });
+    } else {
+        alert("This is the first section.");
+    }
+}
+</script>
+
+            
 </body>
 </html>
