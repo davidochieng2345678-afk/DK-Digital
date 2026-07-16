@@ -4736,12 +4736,14 @@ function toggleFaq(element) {
 
 // Initialize FAQ accordion – keep first one open by default
 document.addEventListener('DOMContentLoaded', function() {
-  const firstFaq = aa   
-
-             ('active');
+  const firstFaq = document.querySelector('.faq-accordion .faq-item');
+  if (firstFaq) {
+    firstFaq.classList.add('active');
   }
 });
 </script>
+     
+
 <!-- ============================================================
    SECTION 12: BLOG & RESOURCES – GEO LEARNING HUB
    ============================================================ -->
