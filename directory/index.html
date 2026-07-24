@@ -154,33 +154,50 @@
 
             
 <div id="merchantsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-{
-    id: '4',                                    // ← changed to '4'
-    businessName: 'DK World Kenya - SEO Book',  // optional: update name to match page
-    slug: 'dk-world-kenya-seo-book',            // ← changed to match the real slug
-    category: 'other',
-    categoryName: '🏪 Other',
-    location: 'nairobi',
-    locationName: 'Nairobi, Kenya',
-    area: 'Nairobi CBD',
-    description: 'Professional SEO and digital marketing services. We help businesses get found on Google – from Nairobi to the world.',
-    phone: '+254710346425',
-    hours: 'Mon-Fri 9am-6pm, Sat 10am-2pm',
-    priceRange: 'KSh 2,000 - 50,000',
-    currency: 'kes',
-    rating: 4.9,
-    reviews: 12,
-    premium: false,
-    merchantCode: 'DK011'
-}
-    
-    
+<div id="merchantsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <!-- DK World Kenya – SEO Book -->
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 card-hover fade-in">
+        <div class="flex items-start justify-between">
+            <div>
+                <h3 class="text-lg font-bold text-gray-900">
+                    <!-- ✅ FIXED: points to your real page -->
+                    <a href="/listing/4/dk-world-kenya-seo-book/" class="hover:text-brand-gold transition">DK World Kenya - SEO Mastery</a>
+                </h3>
+                <div class="flex flex-wrap items-center gap-2 mt-1">
+                    <span class="text-sm text-gray-500"><i class="fas fa-map-marker-alt text-brand-gold"></i> Nairobi, Kenya - Nairobi CBD</span>
+                    <span class="bg-gray-100 text-gray-600 text-xs px-2.5 py-0.5 rounded-full">🏪 Other</span>
+                </div>
+            </div>
+            <span class="currency-badge kes"><i class="fas fa-coin"></i> KSh</span>
+        </div>
+        <p class="text-gray-600 text-sm mt-2">Professional SEO and digital marketing services. We help businesses get found on Google – from Nairobi to the world.</p>
+        <div class="mt-3 flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-2 text-xs text-gray-500">
+                <i class="fas fa-star text-amber-400"></i>
+                <span>4.9</span>
+                <span class="text-gray-400">(12)</span>
+            </div>
+            <div class="flex items-center gap-2">
+                <a href="tel:+254710346425" class="text-gray-400 hover:text-brand-gold transition"><i class="fas fa-phone"></i></a>
+                <a href="https://wa.me/254710346425" target="_blank" class="text-green-500 hover:text-green-600 transition"><i class="fab fa-whatsapp"></i></a>
+                <!-- ✅ FIXED: "View →" now points to your real page -->
+                <a href="/listing/4/dk-world-kenya-seo-book/" class="text-brand-gold hover:text-amber-500 transition text-sm font-medium">View →</a>
+            </div>
+        </div>
+        <div class="mt-2 pt-2 border-t border-gray-100 flex justify-between items-center text-xs text-gray-400">
+            <span><i class="fas fa-clock"></i> Mon-Fri 9am-6pm, Sat 10am-2pm</span>
+            <span class="font-mono">#DK011</span>
+        </div>
+        <div class="mt-1 text-xs text-gray-500"><i class="fas fa-tag"></i> KSh 2,000 - 50,000</div>
+    </div>
+
     <!-- Nation Media Group -->
     <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 card-hover fade-in">
         <div class="flex items-start justify-between">
             <div>
                 <h3 class="text-lg font-bold text-gray-900">
-                    <a href="/listing/merchant_12/nation-media-group/" class="hover:text-brand-gold transition">Nation Media Group</a>
+                    <!-- ⚠️ REPLACE this href with the actual Nation Media Group URL -->
+                    <a href="/listing/5/nation-media-group/" class="hover:text-brand-gold transition">Nation Media Group</a>
                 </h3>
                 <div class="flex flex-wrap items-center gap-2 mt-1">
                     <span class="text-sm text-gray-500"><i class="fas fa-map-marker-alt text-brand-gold"></i> Nairobi, Kenya - Nairobi</span>
@@ -199,7 +216,8 @@
             <div class="flex items-center gap-2">
                 <a href="tel:+254722123456" class="text-gray-400 hover:text-brand-gold transition"><i class="fas fa-phone"></i></a>
                 <a href="https://wa.me/254722123456" target="_blank" class="text-green-500 hover:text-green-600 transition"><i class="fab fa-whatsapp"></i></a>
-                <a href="/listing/merchant_12/nation-media-group/" class="text-brand-gold hover:text-amber-500 transition text-sm font-medium">View →</a>
+                <!-- ⚠️ REPLACE this href with the actual Nation Media Group URL -->
+                <a href="/listing/5/nation-media-group/" class="text-brand-gold hover:text-amber-500 transition text-sm font-medium">View →</a>
             </div>
         </div>
         <div class="mt-2 pt-2 border-t border-gray-100 flex justify-between items-center text-xs text-gray-400">
@@ -209,6 +227,9 @@
         <div class="mt-1 text-xs text-gray-500"><i class="fas fa-tag"></i> KSh 0 - 0</div>
     </div>
 </div>
+
+    
+    
             
         </div>
     </section>
