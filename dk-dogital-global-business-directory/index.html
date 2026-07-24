@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DK Digital Global Business Directory – Get Found on Google Worldwide</title>
+    <meta name="description" content="Discover 200+ verified businesses worldwide. List your business and get a fully optimized, indexable page on Google. Accept payments in KSh or USD." />
+    <link rel="canonical" href="https://dkdigitalseo.online/directory/" />
+    <!-- International SEO -->
+    <link rel="alternate" hreflang="en" href="https://dkdigitalseo.online/directory/" />
+    <link rel="alternate" hreflang="en-KE" href="https://dkdigitalseo.online/directory/" />
+    <link rel="alternate" hreflang="en-US" href="https://dkdigitalseo.online/directory/" />
+    <link rel="alternate" hreflang="en-GB" href="https://dkdigitalseo.online/directory/" />
+    <link rel="alternate" hreflang="x-default" href="https://dkdigitalseo.online/directory/" />
+    <meta property="og:title" content="DK Digital Global Business Directory – List in KSh or USD" />
+    <meta property="og:description" content="Get a dedicated, Google‑friendly business page. Accept payments in Kenya Shillings or US Dollars. Global reach." />
+    <meta property="og:url" content="https://dkdigitalseo.online/directory/" />
+    <meta property="og:locale" content="en_KE" />
+    <meta name="robots" content="index, follow" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-gradient-brand {
+            background: linear-gradient(135deg, #0f172a 0%, #1a2a4a 100%);
+        }
+        .text-brand-gold {
+            color: #f39c12;
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .admin-toggle {
+            cursor: pointer;
+            user-select: none;
+            opacity: 0.3;
+            transition: opacity 0.3s;
+        }
+        .admin-toggle:hover {
+            opacity: 0.8;
+        }
+        .admin-panel {
+            display: none;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 24px;
+            margin-top: 32px;
+        }
+        .admin-panel.active {
+            display: block;
+        }
+        .generated-code {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .currency-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 2px 12px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        .currency-badge.kes {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .currency-badge.usd {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .currency-badge.both {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        /* Toggle switch for admin */
+        .toggle-switch {
+            position: relative;
+            width: 44px;
+            height: 24px;
+            background: #cbd5e1;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: 0.3s;
+            display: inline-block;
+        }
+        .toggle-switch.active {
+            background: #f39c12;
+        }
+        .toggle-switch::after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border-radius: 50%;
+            transition: 0.3s;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .toggle-switch.active::after {
+            left: 22px;
+        }
+        .copy-btn {
+            background: #f39c12;
+            border: none;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            color: #0f172a;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 0.8rem;
+        }
+        .copy-btn:hover {
+            background: #e67e22;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================================ -->
+    <!-- TOP STRIP – Currency switcher / CTA                         -->
+    <!-- ============================================================ -->
+    <div style="background:linear-gradient(90deg,#0f172a,#1a2a4a);border-bottom:1px solid rgba(243,156,18,0.15);padding:10px 20px;text-align:center;font-size:.82rem;">
+        <p style="color:rgba(255,255,255,0.7);">
+            🌍 <strong style="color:#f39c12;">Global Directory</strong> — List your business in <strong style="color:#f39c12;">KSh</strong> or <strong style="color:#22c55e;">USD</strong>. Get found on Google worldwide.
+            <a href="#list-business" style="color:#f39c12;font-weight:700;text-decoration:none;border-bottom:1px solid rgba(243,156,18,0.3);"> List now →</a>
+        </p>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- MAIN CONTAINER                                              -->
+    <!-- ============================================================ -->
+    <div class="max-w-7xl mx-auto px-4 md:px-6 py-6">
+
+        <!-- ========================================================= -->
+        <!-- HEADER – Directory Title + Trust Badges                  -->
+        <!-- ========================================================= -->
+        <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+                📍 DK Digital <span class="text-brand-gold">Global Business Directory</span>
+            </h1>
+            <p class="text-gray-500 mt-3 max-w-2xl mx-auto text-base md:text-lg">
+                Discover businesses worldwide. <strong>List yours for just KSh 200/month</strong> or <strong>$2/month</strong> and get found on Google.
+            </p>
+            <!-- Trust Badges -->
+            <div class="flex flex-wrap justify-center gap-3 mt-4">
+                <span class="bg-green-50 text-green-700 text-xs px-3 py-1.5 rounded-full border border-green-200 flex items-center gap-1"><i class="fas fa-google"></i> Google Indexed</span>
+                <span class="bg-blue-50 text-blue-700 text-xs px-3 py-1.5 rounded-full border border-blue-200 flex items-center gap-1"><i class="fas fa-dollar-sign"></i> KSh & USD</span>
+                <span class="bg-green-50 text-green-700 text-xs px-3 py-1.5 rounded-full border border-green-200 flex items-center gap-1"><i class="fas fa-globe"></i> 180+ Countries</span>
+                <span class="bg-green-50 text-green-700 text-xs px-3 py-1.5 rounded-full border border-green-200 flex items-center gap-1"><i class="fas fa-code"></i> Schema Markup</span>
+                <span class="bg-green-50 text-green-700 text-xs px-3 py-1.5 rounded-full border border-green-200 flex items-center gap-1"><i class="fas fa-whatsapp"></i> WhatsApp Booking</span>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- SEARCH & FILTER BAR                                      -->
+        <!-- ========================================================= -->
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6">
+            <div class="flex flex-wrap gap-3 items-center">
+                <input type="text" id="searchInput" placeholder="Search by name, category, or location..." class="flex-1 border border-gray-200 rounded-xl px-4 py-2.5 min-w-[180px] focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none text-sm" />
+                <select id="categoryFilter" class="border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none text-sm bg-white">
+                    <option value="">All Categories</option>
+                    <option value="grocery">🛒 Grocery</option>
+                    <option value="salon">💇 Salon / Beauty</option>
+                    <option value="hardware">🔧 Hardware</option>
+                    <option value="restaurant">🍽️ Restaurant</option>
+                    <option value="electronics">📱 Electronics</option>
+                    <option value="fashion">👗 Fashion</option>
+                    <option value="pharmacy">💊 Pharmacy</option>
+                    <option value="other">🏪 Other</option>
+                </select>
+                <select id="locationFilter" class="border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none text-sm bg-white">
+                    <option value="">All Locations</option>
+                    <option value="nairobi">Nairobi, Kenya</option>
+                    <option value="kisumu">Kisumu, Kenya</option>
+                    <option value="mombasa">Mombasa, Kenya</option>
+                    <option value="nakuru">Nakuru, Kenya</option>
+                    <option value="eldoret">Eldoret, Kenya</option>
+                    <option value="lagos">Lagos, Nigeria</option>
+                    <option value="accra">Accra, Ghana</option>
+                    <option value="johannesburg">Johannesburg, SA</option>
+                    <option value="london">London, UK</option>
+                    <option value="newyork">New York, USA</option>
+                    <option value="dubai">Dubai, UAE</option>
+                    <option value="other">Other</option>
+                </select>
+                <button onclick="resetFilters()" class="text-gray-400 hover:text-gray-600 text-sm px-3 py-2 transition">
+                    <i class="fas fa-undo-alt"></i> Reset
+                </button>
+            </div>
+            <!-- Category quick chips -->
+            <div class="flex flex-wrap gap-2 mt-4">
+                <span class="text-xs font-medium text-gray-400 mr-1">Browse:</span>
+                <a href="#" onclick="filterByCategory('grocery');return false;" class="bg-gray-100 text-gray-600 text-xs px-3 py-1.5 rounded-full hover:bg-brand-gold hover:text-white transition">🛒 Grocery</a>
+                <a href="#" onclick="filterByCategory('salon');return false;" class="bg-gray-100 text-gray-600 text-xs px-3 py-1.5 rounded-full hover:bg-brand-gold hover:text-white transition">💇 Salon</a>
+                <a href="#" onclick="filterByCategory('restaurant');return false;" class="bg-gray-100 text-gray-600 text-xs px-3 py-1.5 rounded-full hover:bg-brand-gold hover:text-white transition">🍽️ Restaurant</a>
+                <a href="#" onclick="filterByCategory('pharmacy');return false;" class="bg-gray-100 text-gray-600 text-xs px-3 py-1.5 rounded-full hover:bg-brand-gold hover:text-white transition">💊 Pharmacy</a>
+                <a href="#" onclick="filterByCategory('electronics');return false;" class="bg-gray-100 text-gray-600 text-xs px-3 py-1.5 rounded-full hover:bg-brand-gold hover:text-white transition">📱 Electronics</a>
+                <a href="#" onclick="filterByCategory('fashion');return false;" class="bg-gray-100 text-gray-600 text-xs px-3 py-1.5 rounded-full hover:bg-brand-gold hover:text-white transition">👗 Fashion</a>
+                <a href="#" onclick="filterByCategory('hardware');return false;" class="bg-gray-100 text-gray-600 text-xs px-3 py-1.5 rounded-full hover:bg-brand-gold hover:text-white transition">🔧 Hardware</a>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- MERCHANTS GRID                                           -->
+        <!-- ========================================================= -->
+        <div id="merchantsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="col-span-full text-center py-12 text-gray-400">
+                <i class="fas fa-spinner fa-spin text-2xl mb-2 block"></i>
+                Loading businesses...
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- LIST YOUR BUSINESS CTA                                   -->
+        <!-- ========================================================= -->
+        <div id="list-business" class="mt-10 bg-gradient-brand rounded-2xl p-6 md:p-8 text-white relative overflow-hidden">
+            <div class="absolute right-0 top-0 text-8xl opacity-5">📍</div>
+            <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div>
+                    <h2 class="text-2xl md:text-3xl font-extrabold">🚀 Get Found on Google</h2>
+                    <p class="text-gray-300 max-w-lg mt-1 text-sm md:text-base">
+                        List your business and get a fully optimized, indexable page. <strong class="text-brand-gold">KSh 200/month</strong> or <strong class="text-green-400">$2/month</strong>.
+                    </p>
+                    <div class="flex flex-wrap gap-3 mt-3 text-xs text-gray-300">
+                        <span><i class="fas fa-check-circle text-green-400"></i> Google indexed page</span>
+                        <span><i class="fas fa-check-circle text-green-400"></i> Schema.org markup</span>
+                        <span><i class="fas fa-check-circle text-green-400"></i> WhatsApp bookings</span>
+                        <span><i class="fas fa-check-circle text-green-400"></i> Customer reviews</span>
+                        <span><i class="fas fa-check-circle text-green-400"></i> Analytics dashboard</span>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-3 flex-shrink-0">
+                    <a href="#submit-listing" class="bg-brand-gold hover:bg-amber-500 text-gray-900 font-bold px-6 py-3 rounded-xl transition flex items-center gap-2 text-sm md:text-base shadow-lg shadow-brand-gold/20">
+                        <i class="fas fa-store"></i> List Now – KSh 200 / $2
+                    </a>
+                    <a href="#directory" class="bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-xl transition border border-white/10 text-sm md:text-base">
+                        <i class="fas fa-search"></i> Browse Listings
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- SUBMIT LISTING – MANUAL FORM (for business owners)       -->
+        <!-- ========================================================= -->
+        <div id="submit-listing" class="mt-12 scroll-mt-20">
+            <div class="text-center mb-6">
+                <span class="inline-block bg-brand-gold/10 text-brand-gold text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider">Submit Your Business</span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mt-2">📝 Submit Your Business for Listing</h2>
+                <p class="text-gray-500 max-w-md mx-auto mt-1">Send your details to <strong class="text-brand-gold">DK Digital</strong>. We'll create your SEO‑optimized page and list it in the directory.</p>
+            </div>
+
+            <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8">
+                <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                    <i class="fas fa-pen text-brand-gold"></i> Business Information
+                </h3>
+                <p class="text-sm text-gray-500 mb-4">Fill in your details. We'll add your listing within 24 hours after payment confirmation.</p>
+
+                <form id="submitForm" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Business Name *</label>
+                        <input type="text" id="sBizName" required placeholder="e.g., Mary's Fresh Groceries" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                            <select id="sBizCategory" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none bg-white">
+                                <option value="grocery">🛒 Grocery</option>
+                                <option value="salon">💇 Salon / Beauty</option>
+                                <option value="hardware">🔧 Hardware</option>
+                                <option value="restaurant">🍽️ Restaurant</option>
+                                <option value="electronics">📱 Electronics</option>
+                                <option value="fashion">👗 Fashion</option>
+                                <option value="pharmacy">💊 Pharmacy</option>
+                                <option value="other">🏪 Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Category Name</label>
+                            <input type="text" id="sBizCategoryName" placeholder="e.g., Grocery Store" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">City / Country</label>
+                            <input type="text" id="sBizLocation" placeholder="e.g., Nairobi, Kenya" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Area / Estate</label>
+                            <input type="text" id="sBizArea" placeholder="e.g., CBD, Westlands" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Business Description</label>
+                        <textarea id="sBizDesc" rows="3" placeholder="Describe your products or services. Helps customers find you on Google." class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none"></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number <span class="text-gray-400 text-xs">(for WhatsApp & click-to-call)</span></label>
+                        <input type="tel" id="sBizPhone" placeholder="+254 712 345 678" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Website <span class="text-gray-400 text-xs">(optional)</span></label>
+                        <input type="url" id="sBizWebsite" placeholder="https://yourwebsite.com" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Business Hours <span class="text-gray-400 text-xs">(optional)</span></label>
+                        <input type="text" id="sBizHours" placeholder="e.g., Mon-Fri 8am-6pm" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Currency *</label>
+                        <select id="sBizCurrency" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none bg-white">
+                            <option value="kes">🇰🇪 KSh (Kenya Shillings)</option>
+                            <option value="usd">🇺🇸 USD (US Dollars)</option>
+                            <option value="both">🌍 Both KSh & USD</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Price Range</label>
+                        <input type="text" id="sBizPrice" placeholder="e.g., KSh 100 - 5,000 or $2 - $50" class="w-full border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                    </div>
+
+                    <div class="bg-blue-50 rounded-xl p-4 border border-blue-100">
+                        <p class="text-sm text-blue-700 font-semibold flex items-center gap-2">
+                            <i class="fas fa-info-circle"></i> How to submit
+                        </p>
+                        <p class="text-xs text-blue-600 mt-1">This form will send your details to DK Digital via email. We'll review and create your listing within 24 hours after payment.</p>
+                        <p class="text-xs text-blue-600 mt-1"><strong>Payment:</strong> KSh 200/month or $2/month via M-Pesa or Card. We'll send payment instructions after receiving your submission.</p>
+                    </div>
+
+                    <button type="submit" class="w-full bg-brand-gold hover:bg-amber-500 text-gray-900 font-bold py-3 rounded-xl transition flex items-center justify-center gap-2 text-base">
+                        <i class="fas fa-paper-plane"></i> Submit Listing Request
+                    </button>
+                    <div id="submitMessage" class="text-sm text-center mt-2"></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- ADMIN PANEL – For DK Digital (hidden, password protected) -->
+        <!-- ========================================================= -->
+        <div class="mt-8 text-center">
+            <span class="admin-toggle text-xs text-gray-300" onclick="toggleAdmin()">
+                <i class="fas fa-cog"></i> Admin
+            </span>
+        </div>
+
+        <div id="adminPanel" class="admin-panel">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-xl font-bold text-gray-800 flex items-center gap-2">
+                    <i class="fas fa-tools text-brand-gold"></i> Admin – Add Listing
+                </h3>
+                <span class="text-xs text-gray-400">Password: admin123</span>
+            </div>
+
+            <!-- Password gate -->
+            <div id="adminLock" class="mb-4">
+                <label class="block text-sm font-medium text-gray-700 mb-1">Enter Admin Password</label>
+                <div class="flex gap-3">
+                    <input type="password" id="adminPass" placeholder="Enter password..." class="flex-1 border border-gray-200 rounded-xl px-4 py-2.5 focus:ring-2 focus:ring-brand-gold focus:border-transparent outline-none" />
+                    <button onclick="unlockAdmin()" class="bg-brand-gold hover:bg-amber-500 text-gray-900 font-bold px-6 py-2 rounded-xl transition">Unlock</button>
+                </div>
+                <div id="adminLockMsg" class="text-xs text-red-500 mt-1 hidden">Incorrect password. Try again.</div>
+            </div>
+
+            <!-- Admin tools (hidden until unlocked) -->
+            <div id="adminTools" style="display:none;">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Left: Form to add listing -->
+                    <div>
+                        <h4 class="font-bold text-gray-700 mb-3">Add New Business</h4>
+                        <div class="space-y-3">
+                            <input type="text" id="aBizName" placeholder="Business Name" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            <div class="grid grid-cols-2 gap-2">
+                                <input type="text" id="aBizCategory" placeholder="Category (e.g., grocery)" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                                <input type="text" id="aBizCategoryName" placeholder="Category Name" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            </div>
+                            <div class="grid grid-cols-2 gap-2">
+                                <input type="text" id="aBizLocation" placeholder="Location (e.g., nairobi)" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                                <input type="text" id="aBizLocationName" placeholder="City, Country" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            </div>
+                            <input type="text" id="aBizArea" placeholder="Area / Estate" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            <textarea id="aBizDesc" rows="2" placeholder="Description" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm"></textarea>
+                            <input type="text" id="aBizPhone" placeholder="Phone" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            <input type="text" id="aBizWebsite" placeholder="Website" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            <input type="text" id="aBizHours" placeholder="Hours (e.g., Mon-Fri 8am-6pm)" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            <div class="grid grid-cols-2 gap-2">
+                                <select id="aBizCurrency" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm bg-white">
+                                    <option value="kes">KSh</option>
+                                    <option value="usd">USD</option>
+                                    <option value="both">Both</option>
+                                </select>
+                                <input type="text" id="aBizPrice" placeholder="Price Range" class="w-full border border-gray-200 rounded-xl px-4 py-2 text-sm" />
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input type="checkbox" id="aBizPremium" class="w-4 h-4 text-brand-gold rounded" />
+                                <label class="text-sm font-medium">Featured (Premium)</label>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <input type="checkbox" id="aBizActive" class="w-4 h-4 text-green-500 rounded" checked />
+                                <label class="text-sm font-medium">Active</label>
+                            </div>
+                            <button onclick="generateListing()" class="w-full bg-brand-gold hover:bg-amber-500 text-gray-900 font-bold py-2.5 rounded-xl transition text-sm">
+                                <i class="fas fa-code"></i> Generate JSON & HTML
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Right: Generated outputs -->
+                    <div>
+                        <h4 class="font-bold text-gray-700 mb-3">Generated Output</h4>
+                        <p class="text-xs text-gray-400 mb-2">Copy the JSON below and paste into the <code>allMerchants</code> array in the script section.</p>
+                        <div class="generated-code" id="jsonOutput">// JSON will appear here</div>
+                        <button onclick="copyJSON()" class="copy-btn mt-2"><i class="fas fa-copy"></i> Copy JSON</button>
+
+                        <p class="text-xs text-gray-400 mt-4 mb-2">Copy this HTML to create the merchant's dedicated page.</p>
+                        <div class="generated-code" id="htmlOutput" style="max-height:300px;">// HTML page will appear here</div>
+                        <button onclick="copyHTML()" class="copy-btn mt-2"><i class="fas fa-copy"></i> Copy HTML</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- FOOTER                                                   -->
+        <!-- ========================================================= -->
+        <footer class="mt-16 pt-8 border-t border-gray-200 text-center text-sm text-gray-400">
+            <p>&copy; 2026 <strong class="text-gray-600">DK Digital</strong>. All rights reserved. 🌍</p>
+            <p class="mt-1">
+                <a href="#" class="hover:text-brand-gold transition">Privacy Policy</a> &middot;
+                <a href="#" class="hover:text-brand-gold transition">Terms of Service</a> &middot;
+                <a href="#" class="hover:text-brand-gold transition">Contact Us</a>
+            </p>
+            <p class="mt-1 text-xs text-gray-300">
+                <i class="fas fa-dollar-sign"></i> KSh & USD accepted &middot;
+                <i class="fas fa-globe"></i> 180+ countries served
+            </p>
+        </footer>
+    </div>
+
+    <!-- ============================================================ -->
+    <!-- TOAST NOTIFICATION                                          -->
+    <!-- ============================================================ -->
+    <div id="toast" style="position:fixed;bottom:30px;right:30px;z-index:9999;padding:14px 22px;border-radius:12px;color:#fff;font-weight:600;box-shadow:0 8px 32px rgba(0,0,0,0.2);transform:translateY(120px);opacity:0;transition:all 0.5s cubic-bezier(0.68,-0.55,0.27,1.55);max-width:420px;background:#3b82f6;"></div>
+
+    <!-- ============================================================ -->
+    <!-- JAVASCRIPT – FULL LOGIC                                    -->
+    <!-- ============================================================ -->
+    <script>
+        // =============================================================
+        // SAMPLE DATA – You (DK Digital) add new businesses here
+        // =============================================================
+        const SAMPLE_MERCHANTS = [{
+            id: 1,
+            businessName: "Mary's Fresh Groceries",
+            category: "grocery",
+            categoryName: "Grocery Store",
+            location: "nairobi",
+            locationName: "Nairobi, Kenya",
+            area: "CBD",
+            description: "Fresh farm produce, daily delivery, and organic options. Serving Nairobi CBD and surrounding areas.",
+            phone: "+254712345678",
+            website: "https://marysgroceries.co.ke",
+            hours: "Mon-Sat 7am-8pm",
+            priceRange: "KSh 100 - 5,000",
+            currency: "kes",
+            premium: true,
+            rating: 4.8,
+            reviews: 23,
+            merchantCode: "DK1001",
+            slug: "marys-fresh-groceries"
+        }, {
+            id: 2,
+            businessName: "Afro Style Salon",
+            category: "salon",
+            categoryName: "Salon & Beauty",
+            location: "kisumu",
+            locationName: "Kisumu, Kenya",
+            area: "Milimani",
+            description: "Professional hair styling, braiding, and beauty services. Specializing in natural hair care and bridal makeup.",
+            phone: "+254723456789",
+            website: "https://afrostylesalon.com",
+            hours: "Mon-Sat 8am-7pm",
+            priceRange: "$5 - $50",
+            currency: "usd",
+            premium: true,
+            rating: 4.9,
+            reviews: 34,
+            merchantCode: "DK1002",
+            slug: "afro-style-salon"
+        }, {
+            id: 3,
+            businessName: "Jumbo Hardware Supplies",
+            category: "hardware",
+            categoryName: "Hardware Store",
+            location: "mombasa",
+            locationName: "Mombasa, Kenya",
+            area: "Nyali",
+            description: "Quality building materials, tools, and construction supplies. Wholesale and retail available.",
+            phone: "+254734567890",
+            website: "https://jumbohardware.co.ke",
+            hours: "Mon-Sat 7am-6pm",
+            priceRange: "KSh 1,000 - 20,000",
+            currency: "kes",
+            premium: false,
+            rating: 4.5,
+            reviews: 18,
+            merchantCode: "DK1003",
+            slug: "jumbo-hardware-supplies"
+        }, {
+            id: 4,
+            businessName: "Taste of Kenya Restaurant",
+            category: "restaurant",
+            categoryName: "Restaurant",
+            location: "nakuru",
+            locationName: "Nakuru, Kenya",
+            area: "Westside",
+            description: "Authentic Kenyan cuisine, buffet lunches, and catering services. Private dining room available for events.",
+            phone: "+254745678901",
+            website: "https://tasteofkenya.com",
+            hours: "Mon-Sun 10am-10pm",
+            priceRange: "KSh 500 - 5,000 / $5 - $50",
+            currency: "both",
+            premium: true,
+            rating: 4.7,
+            reviews: 41,
+            merchantCode: "DK1004",
+            slug: "taste-of-kenya-restaurant"
+        }, {
+            id: 5,
+            businessName: "Tech Hub Electronics",
+            category: "electronics",
+            categoryName: "Electronics Store",
+            location: "lagos",
+            locationName: "Lagos, Nigeria",
+            area: "Ikeja",
+            description: "Latest smartphones, laptops, and accessories. Repairs and warranty services available.",
+            phone: "+2348034567890",
+            website: "https://techhub.com.ng",
+            hours: "Mon-Sat 8am-7pm",
+            priceRange: "$100 - $500",
+            currency: "usd",
+            premium: false,
+            rating: 4.3,
+            reviews: 27,
+            merchantCode: "DK1005",
+            slug: "tech-hub-electronics"
+        }, {
+            id: 6,
+            businessName: "Fashion Avenue Boutique",
+            category: "fashion",
+            categoryName: "Fashion Boutique",
+            location: "london",
+            locationName: "London, UK",
+            area: "Mayfair",
+            description: "Trendy clothing, accessories, and custom tailoring. African prints and modern styles.",
+            phone: "+442079876543",
+            website: "https://fashionavenue.co.uk",
+            hours: "Mon-Sat 9am-6pm",
+            priceRange: "£20 - £150",
+            currency: "usd",
+            premium: false,
+            rating: 4.6,
+            reviews: 19,
+            merchantCode: "DK1006",
+            slug: "fashion-avenue-boutique"
+        }, {
+            id: 7,
+            businessName: "City Pharmacy",
+            category: "pharmacy",
+            categoryName: "Pharmacy",
+            location: "eldoret",
+            locationName: "Eldoret, Kenya",
+            area: "CBD",
+            description: "Prescription medications, over-the-counter drugs, and health supplements. Licensed and certified.",
+            phone: "+254778901234",
+            website: "https://citypharmacy.co.ke",
+            hours: "Mon-Sat 7am-9pm, Sun 9am-6pm",
+            priceRange: "KSh 100 - 5,000",
+            currency: "kes",
+            premium: true,
+            rating: 4.9,
+            reviews: 32,
+            merchantCode: "DK1007",
+            slug: "city-pharmacy"
+        }, {
+            id: 8,
+            businessName: "Green Acres Farm Shop",
+            category: "grocery",
+            categoryName: "Farm Shop",
+            location: "accra",
+            locationName: "Accra, Ghana",
+            area: "East Legon",
+            description: "Fresh organic vegetables, fruits, and free-range eggs. Direct from farm to table.",
+            phone: "+233244567890",
+            website: "",
+            hours: "Mon-Sat 6am-7pm",
+            priceRange: "GHS 10 - 50",
+            currency: "usd",
+            premium: false,
+            rating: 4.4,
+            reviews: 14,
+            merchantCode: "DK1008",
+            slug: "green-acres-farm-shop"
+        }, {
+            id: 9,
+            businessName: "Prime Hardware & Tools",
+            category: "hardware",
+            categoryName: "Hardware",
+            location: "johannesburg",
+            locationName: "Johannesburg, SA",
+            area: "Sandton",
+            description: "Industrial tools, safety equipment, and construction materials. Bulk orders and delivery available.",
+            phone: "+27111234567",
+            website: "https://primehardware.co.za",
+            hours: "Mon-Fri 7am-6pm, Sat 8am-3pm",
+            priceRange: "ZAR 100 - 5,000",
+            currency: "usd",
+            premium: false,
+            rating: 4.2,
+            reviews: 11,
+            merchantCode: "DK1009",
+            slug: "prime-hardware-tools"
+        }, {
+            id: 10,
+            businessName: "Spice & Grill Restaurant",
+            category: "restaurant",
+            categoryName: "Restaurant",
+            location: "dubai",
+            locationName: "Dubai, UAE",
+            area: "Downtown",
+            description: "Coastal cuisine, fresh seafood, and grilled meats. Outdoor seating and live music on weekends.",
+            phone: "+971501234567",
+            website: "https://spiceandgrill.ae",
+            hours: "Mon-Sun 11am-11pm",
+            priceRange: "$10 - $80",
+            currency: "usd",
+            premium: true,
+            rating: 4.8,
+            reviews: 38,
+            merchantCode: "DK1010",
+            slug: "spice-grill-restaurant"
+        }, {
+            id: 11,
+            businessName: "East African Tours & Safaris",
+            category: "other",
+            categoryName: "Tour Operator",
+            location: "nairobi",
+            locationName: "Nairobi, Kenya",
+            area: "Karen",
+            description: "Experience the best of East Africa. Safari packages, cultural tours, and luxury travel experiences.",
+            phone: "+254722123456",
+            website: "https://eastafricansafaris.com",
+            hours: "Mon-Fri 8am-6pm",
+            priceRange: "$500 - $5,000",
+            currency: "usd",
+            premium: true,
+            rating: 4.9,
+            reviews: 45,
+            merchantCode: "DK1011",
+            slug: "east-african-tours-safaris"
+        }, {
+            id: 12,
+            businessName: "Fresh Bites Café",
+            category: "restaurant",
+            categoryName: "Café",
+            location: "newyork",
+            locationName: "New York, USA",
+            area: "Brooklyn",
+            description: "Organic coffee, fresh pastries, and healthy breakfast options. Free Wi-Fi and cozy atmosphere.",
+            phone: "+19175551234",
+            website: "https://freshbitescafe.com",
+            hours: "Mon-Sun 7am-9pm",
+            priceRange: "$5 - $25",
+            currency: "usd",
+            premium: false,
+            rating: 4.6,
+            reviews: 29,
+            merchantCode: "DK1012",
+            slug: "fresh-bites-cafe"
+        }];
+
+        // =============================================================
+        // STATE
+        // =============================================================
+        let allMerchants = [];
+        let adminUnlocked = false;
+
+        // =============================================================
+        // INIT – Load merchants
+        // =============================================================
+        function loadMerchants() {
+            const stored = localStorage.getItem('dk_global_directory_merchants');
+            if (stored) {
+                try {
+                    const parsed = JSON.parse(stored);
+                    if (parsed.length > 0) {
+                        allMerchants = parsed;
+                        renderMerchants();
+                        return;
+                    }
+                } catch (e) { /* fall through */ }
+            }
+            allMerchants = JSON.parse(JSON.stringify(SAMPLE_MERCHANTS));
+            localStorage.setItem('dk_global_directory_merchants', JSON.stringify(allMerchants));
+            renderMerchants();
+        }
+
+        // =============================================================
+        // RENDER MERCHANTS
+        // =============================================================
+        function renderMerchants() {
+            const grid = document.getElementById('merchantsGrid');
+            const search = document.getElementById('searchInput').value.toLowerCase().trim();
+            const category = document.getElementById('categoryFilter').value;
+            const location = document.getElementById('locationFilter').value;
+
+            let filtered = allMerchants.filter(m => {
+                const name = m.businessName?.toLowerCase() || '';
+                const catName = m.categoryName?.toLowerCase() || '';
+                const locName = m.locationName?.toLowerCase() || '';
+                const area = m.area?.toLowerCase() || '';
+                const desc = m.description?.toLowerCase() || '';
+
+                const matchesSearch = !search ||
+                    name.includes(search) ||
+                    catName.includes(search) ||
+                    locName.includes(search) ||
+                    area.includes(search) ||
+                    desc.includes(search);
+
+                const matchesCategory = !category || m.category === category;
+                const matchesLocation = !location || m.location === location;
+
+                return matchesSearch && matchesCategory && matchesLocation;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                        <div class="col-span-full text-center py-12 text-gray-400">
+                            <i class="fas fa-store text-3xl block mb-3 text-gray-300"></i>
+                            <p class="font-medium text-gray-500">No businesses found</p>
+                            <p class="text-sm">Be the first to <a href="#submit-listing" class="text-brand-gold font-semibold hover:underline">submit your business</a>.</p>
+                        </div>
+                    `;
+                return;
+            }
+
+            grid.innerHTML = filtered.map(m => {
+                const slug = m.slug || m.businessName.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+                const listingUrl = `/listing/${m.id}/${slug}`;
+
+                // Currency badge
+                let currencyBadge = '';
+                if (m.currency === 'kes') currencyBadge =
+                    '<span class="currency-badge kes"><i class="fas fa-coin"></i> KSh</span>';
+                else if (m.currency === 'usd') currencyBadge =
+                    '<span class="currency-badge usd"><i class="fas fa-dollar-sign"></i> USD</span>';
+                else currencyBadge = '<span class="currency-badge both"><i class="fas fa-exchange-alt"></i> KSh & USD</span>';
+
+                return `
+                        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 card-hover fade-in">
+                            <div class="flex items-start justify-between">
+                                <div>
+                                    <h3 class="text-lg font-bold text-gray-900">
+                                        <a href="${listingUrl}" class="hover:text-brand-gold transition">${m.businessName || 'Unnamed Business'}</a>
+                                    </h3>
+                                    <div class="flex flex-wrap items-center gap-2 mt-1">
+                                        <span class="text-sm text-gray-500"><i class="fas fa-map-marker-alt text-brand-gold"></i> ${m.locationName || ''}${m.area ? ` - ${m.area}` : ''}</span>
+                                        <span class="bg-gray-100 text-gray-600 text-xs px-2.5 py-0.5 rounded-full">${m.categoryName || m.category || 'Business'}</span>
+                                        ${m.premium ? '<span class="bg-amber-100 text-amber-700 text-xs px-2.5 py-0.5 rounded-full font-medium"><i class="fas fa-star"></i> Featured</span>' : ''}
+                                    </div>
+                                </div>
+                                ${currencyBadge}
+                            </div>
+                            <p class="text-gray-600 text-sm mt-2 line-clamp-2">${m.description || 'No description provided.'}</p>
+                            <div class="mt-3 flex flex-wrap items-center justify-between gap-2">
+                                <div class="flex items-center gap-2 text-xs text-gray-500">
+                                    <i class="fas fa-star text-amber-400"></i>
+                                    <span class="font-medium">${m.rating || 'New'}</span>
+                                    ${m.reviews ? `<span class="text-gray-400">(${m.reviews} reviews)</span>` : ''}
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    ${m.phone ? `<a href="tel:${m.phone}" class="text-gray-400 hover:text-brand-gold transition"><i class="fas fa-phone"></i></a>` : ''}
+                                    ${m.phone ? `<a href="https://wa.me/${m.phone.replace(/[^0-9]/g, '')}" target="_blank" class="text-green-500 hover:text-green-600 transition"><i class="fab fa-whatsapp"></i></a>` : ''}
+                                    <a href="${listingUrl}" class="text-brand-gold hover:text-amber-500 transition text-sm font-medium">View →</a>
+                                </div>
+                            </div>
+                            <div class="mt-3 pt-3 border-t border-gray-100 flex justify-between items-center text-xs text-gray-400">
+                                <span><i class="fas fa-clock"></i> ${m.hours || 'Hours not set'}</span>
+                                <span class="font-mono">#${m.merchantCode || 'N/A'}</span>
+                            </div>
+                            ${m.priceRange ? `<div class="mt-1 text-xs text-gray-500"><i class="fas fa-tag"></i> ${m.priceRange}</div>` : ''}
+                        </div>
+                    `;
+            }).join('');
+        }
+
+        // =============================================================
+        // FILTER HELPERS
+        // =============================================================
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('categoryFilter').value = '';
+            document.getElementById('locationFilter').value = '';
+            renderMerchants();
+        }
+
+        function filterByCategory(cat) {
+            document.getElementById('categoryFilter').value = cat;
+            renderMerchants();
+            document.getElementById('merchantsGrid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        document.getElementById('searchInput').addEventListener('input', renderMerchants);
+        document.getElementById('categoryFilter').addEventListener('change', renderMerchants);
+        document.getElementById('locationFilter').addEventListener('change', renderMerchants);
+
+        // =============================================================
+        // SUBMIT FORM – Send details to DK Digital via EmailJS
+        // =============================================================
+        document.getElementById('submitForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('sBizName').value.trim();
+            if (!name) {
+                showToast('Please enter your business name.', 'error');
+                return;
+            }
+
+            const btn = this.querySelector('button[type="submit"]');
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+            const data = {
+                businessName: name,
+                category: document.getElementById('sBizCategory').value,
+                categoryName: document.getElementById('sBizCategoryName').value.trim(),
+                location: document.getElementById('sBizLocation').value.trim(),
+                area: document.getElementById('sBizArea').value.trim(),
+                description: document.getElementById('sBizDesc').value.trim(),
+                phone: document.getElementById('sBizPhone').value.trim(),
+                website: document.getElementById('sBizWebsite').value.trim(),
+                hours: document.getElementById('sBizHours').value.trim(),
+                currency: document.getElementById('sBizCurrency').value,
+                price: document.getElementById('sBizPrice').value.trim(),
+            };
+
+            // Build email subject and body
+            const subject = `New Directory Listing: ${data.businessName}`;
+            const body = `
+        New business submission for DK Digital Global Directory:
+
+        Business Name: ${data.businessName}
+        Category: ${data.categoryName || data.category}
+        Location: ${data.location}${data.area ? ` - ${data.area}` : ''}
+        Phone: ${data.phone || 'Not provided'}
+        Website: ${data.website || 'Not provided'}
+        Hours: ${data.hours || 'Not provided'}
+        Currency: ${data.currency}
+        Price Range: ${data.price || 'Not provided'}
+
+        Description:
+        ${data.description || 'No description provided.'}
+
+        ---
+        Please review and create the listing.
+        Send payment instructions to the business owner.
+        `;
+
+            // Use mailto as fallback (no backend required)
+            const mailtoLink = `mailto:info@dkdigitalseo.online?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+            // Open email client
+            window.open(mailtoLink, '_blank');
+
+            // Show success message
+            const msg = document.getElementById('submitMessage');
+            msg.innerHTML = `
+                <div class="bg-green-100 text-green-700 p-3 rounded-xl mt-2">
+                    <i class="fas fa-check-circle"></i> 
+                    <strong>Submission sent!</strong> We'll review your details and create your listing within 24 hours after payment confirmation.
+                    <br><br>
+                    <span class="text-xs">Payment: KSh 200/month or $2/month via M-Pesa or Card. We'll send payment instructions via email.</span>
+                </div>
+            `;
+
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-paper-plane"></i> Submit Listing Request';
+
+            // Reset form
+            document.getElementById('submitForm').reset();
+
+            showToast('✅ Submission sent! Check your email for confirmation.', 'success');
+        });
+
+        // =============================================================
+        // ADMIN PANEL
+        // =============================================================
+        function toggleAdmin() {
+            const panel = document.getElementById('adminPanel');
+            panel.classList.toggle('active');
+            if (panel.classList.contains('active')) {
+                // Show password field, hide tools
+                document.getElementById('adminLock').style.display = 'block';
+                document.getElementById('adminTools').style.display = 'none';
+                document.getElementById('adminPass').value = '';
+                document.getElementById('adminLockMsg').classList.add('hidden');
+            }
+        }
+
+        function unlockAdmin() {
+            const pass = document.getElementById('adminPass').value;
+            if (pass === 'admin123') {
+                document.getElementById('adminLock').style.display = 'none';
+                document.getElementById('adminTools').style.display = 'block';
+                adminUnlocked = true;
+                showToast('🔓 Admin unlocked.', 'success');
+            } else {
+                document.getElementById('adminLockMsg').classList.remove('hidden');
+            }
+        }
+
+        // =============================================================
+        // GENERATE LISTING (Admin tool)
+        // =============================================================
+        function generateListing() {
+            const data = {
+                id: Date.now(),
+                businessName: document.getElementById('aBizName').value.trim() || 'New Business',
+                category: document.getElementById('aBizCategory').value.trim() || 'other',
+                categoryName: document.getElementById('aBizCategoryName').value.trim() || 'Business',
+                location: document.getElementById('aBizLocation').value.trim() || 'other',
+                locationName: document.getElementById('aBizLocationName').value.trim() || 'City, Country',
+                area: document.getElementById('aBizArea').value.trim() || '',
+                description: document.getElementById('aBizDesc').value.trim() || 'A verified business on DK Digital Global Directory.',
+                phone: document.getElementById('aBizPhone').value.trim() || '',
+                website: document.getElementById('aBizWebsite').value.trim() || '',
+                hours: document.getElementById('aBizHours').value.trim() || 'Mon-Fri 8am-6pm',
+                currency: document.getElementById('aBizCurrency').value || 'kes',
+                priceRange: document.getElementById('aBizPrice').value.trim() || 'KSh 100 - 5,000',
+                premium: document.getElementById('aBizPremium').checked,
+                active: document.getElementById('aBizActive').checked,
+                rating: 0,
+                reviews: 0,
+                merchantCode: `DK${String(Date.now()).slice(-5)}`,
+                slug: document.getElementById('aBizName').value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-') || 'new-business',
+            };
+
+            // Generate JSON
+            const jsonOutput = document.getElementById('jsonOutput');
+            jsonOutput.textContent = JSON.stringify(data, null, 2);
+
+            // Generate HTML page
+            const htmlContent = generateMerchantHTML(data);
+            document.getElementById('htmlOutput').textContent = htmlContent;
+
+            showToast('✅ Listing generated! Copy the JSON and HTML.', 'success');
+        }
+
+        function generateMerchantHTML(data) {
+            const currencySymbol = data.currency === 'kes' ? 'KSh' : data.currency === 'usd' ? '$' : 'KSh / $';
+            const priceDisplay = data.priceRange || `${currencySymbol} 100 - 5,000`;
+
+            return `<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>${data.businessName} – ${data.categoryName} in ${data.locationName}</title>
+            <meta name="description" content="${data.businessName} – ${data.description || 'A verified business listed on DK Digital Global Directory.'} Contact us today." />
+            <link rel="canonical" href="https://dkdigitalseo.online/listing/${data.id}/${data.slug}/" />
+            <meta property="og:title" content="${data.businessName} – ${data.categoryName}" />
+            <meta property="og:description" content="${data.description || 'Verified business listing.'}" />
+            <meta property="og:url" content="https://dkdigitalseo.online/listing/${data.id}/${data.slug}/" />
+            <meta name="robots" content="index, follow" />
+            <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "${data.businessName}",
+                "description": "${data.description || ''}",
+                "telephone": "${data.phone || ''}",
+                "url": "${data.website || ''}",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "${data.locationName}",
+                    "addressRegion": "${data.area || ''}",
+                    "addressCountry": "Worldwide"
+                },
+                "priceRange": "${priceDisplay}",
+                "openingHours": "${data.hours || ''}"
+            }
+            </script>
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        </head>
+        <body class="bg-gray-50">
+            <div class="max-w-4xl mx-auto p-6">
+                <div class="bg-white rounded-2xl shadow-lg p-8">
+                    <div class="flex items-start gap-6">
+                        <div style="font-size:4rem;">${data.category === 'grocery' ? '🛒' : data.category === 'salon' ? '💇' : data.category === 'hardware' ? '🔧' : data.category === 'restaurant' ? '🍽️' : data.category === 'electronics' ? '📱' : data.category === 'fashion' ? '👗' : data.category === 'pharmacy' ? '💊' : '🏪'}</div>
+                        <div>
+                            <h1 class="text-3xl font-extrabold text-gray-900">${data.businessName}</h1>
+                            <div class="flex flex-wrap items-center gap-3 mt-1">
+                                <span class="bg-gray-100 text-gray-600 text-sm px-3 py-1 rounded-full">${data.categoryName}</span>
+                                <span class="text-gray-500 text-sm"><i class="fas fa-map-marker-alt"></i> ${data.locationName}${data.area ? ` - ${data.area}` : ''}</span>
+                                ${data.premium ? '<span class="bg-amber-100 text-amber-700 text-xs px-3 py-1 rounded-full font-medium"><i class="fas fa-star"></i> Featured</span>' : ''}
+                            </div>
+                            <p class="text-gray-600 mt-4">${data.description || 'No description provided.'}</p>
+                            <div class="mt-4 flex flex-wrap gap-4 text-sm">
+                                ${data.phone ? `<a href="tel:${data.phone}" class="text-brand-gold hover:underline"><i class="fas fa-phone"></i> ${data.phone}</a>` : ''}
+                                ${data.phone ? `<a href="https://wa.me/${data.phone.replace(/[^0-9]/g, '')}" target="_blank" class="text-green-500 hover:underline"><i class="fab fa-whatsapp"></i> WhatsApp</a>` : ''}
+                                ${data.website ? `<a href="${data.website}" target="_blank" class="text-blue-600 hover:underline"><i class="fas fa-globe"></i> Website</a>` : ''}
+                            </div>
+                            <div class="mt-4 p-4 bg-gray-50 rounded-xl">
+                                <p><strong><i class="fas fa-clock"></i> Hours:</strong> ${data.hours || 'Not specified'}</p>
+                                <p><strong><i class="fas fa-tag"></i> Price Range:</strong> ${priceDisplay}</p>
+                                <p><strong><i class="fas fa-coin"></i> Currency:</strong> ${data.currency === 'kes' ? '🇰🇪 KSh' : data.currency === 'usd' ? '🇺🇸 USD' : 'Both KSh & USD'}</p>
+                            </div>
+                            <div class="mt-6 flex gap-4">
+                                <a href="https://wa.me/254710346425?text=Hi%2C%20I%20found%20${encodeURIComponent(data.businessName)}%20on%20DK%20Digital%20Directory!" target="_blank" class="bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-2 rounded-xl transition">
+                                    <i class="fab fa-whatsapp"></i> Contact via WhatsApp
+                                </a>
+                                <a href="/directory/" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-semibold px-6 py-2 rounded-xl transition">
+                                    ← Back to Directory
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-6 text-center text-xs text-gray-400">
+                    <p>Listed on <a href="https://dkdigitalseo.online/directory/" class="text-brand-gold hover:underline">DK Digital Global Directory</a></p>
+                    <p class="mt-1">© ${new Date().getFullYear()} DK Digital. All rights reserved.</p>
+                </div>
+            </div>
+        </body>
+        </html>`;
+        }
+
+        // =============================================================
+        // COPY FUNCTIONS
+        // =============================================================
+        function copyJSON() {
+            const content = document.getElementById('jsonOutput').textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                showToast('📋 JSON copied to clipboard!', 'success');
+            }).catch(() => {
+                // Fallback
+                const area = document.createElement('textarea');
+                area.value = content;
+                document.body.appendChild(area);
+                area.select();
+                document.execCommand('copy');
+                document.body.removeChild(area);
+                showToast('📋 JSON copied!', 'success');
+            });
+        }
+
+        function copyHTML() {
+            const content = document.getElementById('htmlOutput').textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                showToast('📋 HTML copied to clipboard!', 'success');
+            }).catch(() => {
+                const area = document.createElement('textarea');
+                area.value = content;
+                document.body.appendChild(area);
+                area.select();
+                document.execCommand('copy');
+                document.body.removeChild(area);
+                showToast('📋 HTML copied!', 'success');
+            });
+        }
+
+        // =============================================================
+        // TOAST
+        // =============================================================
+        function showToast(message, type = 'info') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.style.background = type === 'success' ? '#22c55e' : type === 'error' ? '#ef4444' : '#3b82f6';
+            toast.style.transform = 'translateY(0)';
+            toast.style.opacity = '1';
+            clearTimeout(toast._timeout);
+            toast._timeout = setTimeout(() => {
+                toast.style.transform = 'translateY(120px)';
+                toast.style.opacity = '0';
+            }, 5000);
+        }
+
+        // =============================================================
+        // KEYBOARD SHORTCUT: Ctrl+Shift+A to toggle admin
+        // =============================================================
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.shiftKey && e.key === 'A') {
+                e.preventDefault();
+                toggleAdmin();
+            }
+        });
+
+        // =============================================================
+        // INIT
+        // =============================================================
+        document.addEventListener('DOMContentLoaded', function() {
+            loadMerchants();
+
+            // Auto-show toast for first-time visitors
+            if (!localStorage.getItem('dk_global_visited')) {
+                setTimeout(() => {
+                    showToast('🌍 Welcome to the DK Digital Global Directory! List your business in KSh or USD.', 'info');
+                }, 1500);
+                localStorage.setItem('dk_global_visited', 'true');
+            }
+        });
+
+        // Expose functions globally
+        window.resetFilters = resetFilters;
+        window.filterByCategory = filterByCategory;
+        window.toggleAdmin = toggleAdmin;
+        window.unlockAdmin = unlockAdmin;
+        window.generateListing = generateListing;
+        window.copyJSON = copyJSON;
+        window.copyHTML = copyHTML;
+        window.showToast = showToast;
+        window.renderMerchants = renderMerchants;
+    </script>
+
+</body>
+</html>
