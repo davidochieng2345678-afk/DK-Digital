@@ -3351,14 +3351,17 @@ const SAMPLE_MERCHANTS = [
         document.getElementById('categoryFilter').addEventListener('change', renderMerchants);
         document.getElementById('locationFilter').addEventListener('change', renderMerchants);
 
-        // =============================================================
-        // INIT
-        // =============================================================
-        document.addEventListener('DOMContentLoaded', loadMerchants);
 
-        // Expose functions globally
-        window.resetFilters = resetFilters;
-        window.renderMerchants = renderMerchants;
+// =============================================================
+// INIT
+// =============================================================
+// DOM is already ready – call immediately
+loadMerchants();
+
+// Expose functions globally
+window.resetFilters = resetFilters;
+window.renderMerchants = renderMerchants;
+    
     </script>
 
 </body>
