@@ -3293,19 +3293,7 @@
 
         
 
-            if (filtered.length === 0) {
-                grid.innerHTML = `<div class="col-span-full text-center py-12 text-gray-400">No businesses found. <a href="#submit-listing" class="text-brand-gold font-semibold hover:underline">List your business</a>.</div>`;
-                return;
-            }
-
-            grid.innerHTML = filtered.map(m => {
-                const listingUrl = `/listing/${m.id}/${m.slug}/`;
-                let currencyBadge = '';
-                if (m.currency === 'kes') currencyBadge = '<span class="currency-badge kes"><i class="fas fa-coin"></i> KSh</span>';
-                else if (m.currency === 'usd') currencyBadge = '<span class="currency-badge usd"><i class="fas fa-dollar-sign"></i> USD</span>';
-                else currencyBadge = '<span class="currency-badge both"><i class="fas fa-exchange-alt"></i> KSh & USD</span>';
-
-                return `
+    
                     <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 card-hover fade-in">
                         <div class="flex items-start justify-between">
                             <div>
@@ -3339,11 +3327,7 @@
                         </div>
                         ${m.priceRange ? `<div class="mt-1 text-xs text-gray-500"><i class="fas fa-tag"></i> ${m.priceRange}</div>` : ''}
                     </div>
-                `;
-            }).join('');
-        }
-
-    
+                
     
     </script>
 
