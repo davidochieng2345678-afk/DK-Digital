@@ -3291,33 +3291,7 @@
         </div>
     </footer>
 
-        // =============================================================
-        // LOAD & RENDER MERCHANTS
-        // =============================================================
-        let allMerchants = [];
-
-        function loadMerchants() {
-            allMerchants = JSON.parse(JSON.stringify(SAMPLE_MERCHANTS));
-            renderMerchants();
-        }
-
-        function renderMerchants() {
-            const grid = document.getElementById('merchantsGrid');
-            const search = document.getElementById('searchInput').value.toLowerCase().trim();
-            const category = document.getElementById('categoryFilter').value;
-            const location = document.getElementById('locationFilter').value;
-
-            let filtered = allMerchants.filter(m => {
-                const name = m.businessName?.toLowerCase() || '';
-                const cat = m.categoryName?.toLowerCase() || '';
-                const loc = m.locationName?.toLowerCase() || '';
-                const area = m.area?.toLowerCase() || '';
-                const desc = m.description?.toLowerCase() || '';
-                const matchesSearch = !search || name.includes(search) || cat.includes(search) || loc.includes(search) || area.includes(search) || desc.includes(search);
-                const matchesCategory = !category || m.category === category;
-                const matchesLocation = !location || m.location === location;
-                return matchesSearch && matchesCategory && matchesLocation;
-            });
+        
 
             if (filtered.length === 0) {
                 grid.innerHTML = `<div class="col-span-full text-center py-12 text-gray-400">No businesses found. <a href="#submit-listing" class="text-brand-gold font-semibold hover:underline">List your business</a>.</div>`;
