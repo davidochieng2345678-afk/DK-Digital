@@ -3343,30 +3343,7 @@
             }).join('');
         }
 
-        // =============================================================
-        // FILTER HELPERS
-        // =============================================================
-        function resetFilters() {
-            document.getElementById('searchInput').value = '';
-            document.getElementById('categoryFilter').value = '';
-            document.getElementById('locationFilter').value = '';
-            renderMerchants();
-        }
-
-        document.getElementById('searchInput').addEventListener('input', renderMerchants);
-        document.getElementById('categoryFilter').addEventListener('change', renderMerchants);
-        document.getElementById('locationFilter').addEventListener('change', renderMerchants);
-
-
-// =============================================================
-// INIT
-// =============================================================
-// DOM is already ready – call immediately
-loadMerchants();
-
-// Expose functions globally
-window.resetFilters = resetFilters;
-window.renderMerchants = renderMerchants;
+    
     
     </script>
 
