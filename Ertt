@@ -1,3 +1,902 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+<head>
+    <!-- ============================================================ -->
+    <!-- META HEAD – FULLY OPTIMIZED FOR SHOPIFY SEO HERO SECTION    -->
+    <!-- ============================================================ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify SEO Kenya – The Complete Guide to 400% Organic Traffic Growth</title>
+    <meta name="description" content="Shopify SEO Kenya: The complete guide to taking your Shopify store from 0 to 400+ organic visitors/month. Learn the exact strategy that works for Kenyan e-commerce.">
+    <meta name="keywords" content="Shopify SEO Kenya, Shopify store Kenya, Shopify organic traffic, Kenyan e-commerce SEO, Shopify SEO guide, Shopify ranking Kenya">
+    <link rel="canonical" href="https://dkdigitalseo.online/blog/shopify-seo-kenya-boost-organic-traffic/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Shopify SEO Kenya – The Complete Guide to 400% Organic Traffic Growth">
+    <meta property="og:description" content="From 0 to 400+ organic visitors/month. The exact Shopify SEO strategy that works for Kenyan e-commerce stores.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://dkdigitalseo.online/blog/shopify-seo-kenya-boost-organic-traffic/">
+    <meta property="og:image" content="https://dkdigitalseo.online/images/shopify-seo-kenya-hero-og.jpg">
+    <meta property="og:locale" content="en_KE">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shopify SEO Kenya – The Complete Guide to 400% Organic Traffic Growth">
+    <meta name="twitter:description" content="From 0 to 400+ organic visitors/month. The exact Shopify SEO strategy that works for Kenyan e-commerce stores.">
+    <meta name="twitter:image" content="https://dkdigitalseo.online/images/shopify-seo-kenya-hero-twitter.jpg">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    
+    <!-- Schema Markup – Article -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Shopify SEO Kenya – The Complete Guide to 400% Organic Traffic Growth",
+        "description": "From 0 to 400+ organic visitors/month. The exact Shopify SEO strategy that works for Kenyan e-commerce stores.",
+        "image": "https://dkdigitalseo.online/images/shopify-seo-kenya-hero-og.jpg",
+        "author": {
+            "@type": "Organization",
+            "name": "DK Digital SEO",
+            "url": "https://dkdigitalseo.online"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "DK Digital SEO",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://dkdigitalseo.online/images/logo.png"
+            }
+        },
+        "datePublished": "2026-08-09",
+        "dateModified": "2026-08-09",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://dkdigitalseo.online/blog/shopify-seo-kenya-boost-organic-traffic/"
+        }
+    }
+    </script>
+    
+    <!-- Schema Markup – Breadcrumb -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://dkdigitalseo.online"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://dkdigitalseo.online/blog"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Shopify SEO Kenya",
+                "item": "https://dkdigitalseo.online/blog/shopify-seo-kenya-boost-organic-traffic/"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Fonts & CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        /* ============================================================ */
+        /* BASE STYLES – MODERN, CLEAN, CONVERSION-FOCUSED             */
+        /* ============================================================ */
+        :root {
+            --brand-gold: #d4a017;
+            --brand-gold-light: #f0d060;
+            --brand-dark: #0f0f1a;
+            --brand-dark-light: #1a1a2e;
+            --text-light: #f7fafc;
+            --text-gray: #a0aec0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+            line-height: 1.6; 
+            color: #1a202c; 
+            background: #ffffff; 
+            overflow-x: hidden;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* ============================================================ */
+        /* HERO SECTION – FULL-WIDTH WITH GRADIENT                     */
+        /* ============================================================ */
+        .hero-section {
+            position: relative;
+            background: linear-gradient(135deg, var(--brand-dark) 0%, var(--brand-dark-light) 50%, #0a0a15 100%);
+            padding: 80px 0 60px;
+            overflow: hidden;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+        }
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(212, 160, 23, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .hero-section::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(212, 160, 23, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+        .hero-content {
+            color: var(--text-light);
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(212, 160, 23, 0.2);
+            color: var(--brand-gold-light);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.5rem 1.25rem;
+            border-radius: 9999px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(212, 160, 23, 0.3);
+        }
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+        }
+        .hero-title .highlight {
+            background: linear-gradient(135deg, var(--brand-gold), var(--brand-gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-gray);
+            max-width: 520px;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+        .hero-stats {
+            display: flex;
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+        .hero-stat {
+            text-align: left;
+        }
+        .hero-stat-number {
+            font-size: 2.25rem;
+            font-weight: 900;
+            color: var(--brand-gold);
+            display: block;
+        }
+        .hero-stat-label {
+            font-size: 0.8rem;
+            color: var(--text-gray);
+            font-weight: 400;
+        }
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .btn-primary {
+            display: inline-block;
+            background: var(--brand-gold);
+            color: var(--brand-dark);
+            font-weight: 700;
+            padding: 1rem 2.5rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 30px rgba(212, 160, 23, 0.3);
+        }
+        .btn-primary:hover {
+            background: var(--brand-gold-light);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(212, 160, 23, 0.4);
+        }
+        .btn-secondary {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-light);
+            font-weight: 600;
+            padding: 1rem 2.5rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.3s ease;
+        }
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        /* Hero Visual / Right Column */
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .hero-visual-card {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            width: 100%;
+            max-width: 480px;
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+        }
+        .hero-visual-card .stat-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .hero-visual-card .stat-item:last-child {
+            border-bottom: none;
+        }
+        .hero-visual-card .stat-label {
+            color: var(--text-gray);
+            font-size: 0.9rem;
+        }
+        .hero-visual-card .stat-value {
+            color: var(--text-light);
+            font-weight: 700;
+            font-size: 0.95rem;
+        }
+        .hero-visual-card .stat-value.gold {
+            color: var(--brand-gold);
+        }
+        .hero-visual-card .stat-value.green {
+            color: #48bb78;
+        }
+        .hero-visual-card .stat-value.red {
+            color: #fc8181;
+        }
+        .hero-visual-card .badge-row {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .hero-visual-card .badge-item {
+            background: rgba(255, 255, 255, 0.06);
+            padding: 0.4rem 1rem;
+            border-radius: 9999px;
+            font-size: 0.7rem;
+            color: var(--text-gray);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .hero-visual-card .badge-item i {
+            color: var(--brand-gold);
+            margin-right: 0.4rem;
+        }
+        
+        /* Trust Bar */
+        .trust-bar {
+            background: rgba(255, 255, 255, 0.03);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding: 1.5rem 0;
+            position: relative;
+            z-index: 2;
+        }
+        .trust-bar-inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--text-gray);
+            font-size: 0.85rem;
+        }
+        .trust-item i {
+            color: var(--brand-gold);
+            font-size: 1.1rem;
+        }
+        .trust-item strong {
+            color: var(--text-light);
+        }
+        
+        /* ============================================================ */
+        /* RESPONSIVE                                                   */
+        /* ============================================================ */
+        @media (max-width: 1024px) {
+            .hero-title { font-size: 2.8rem; }
+            .hero-grid { gap: 40px; }
+        }
+        @media (max-width: 768px) {
+            .hero-section { padding: 60px 0 40px; min-height: auto; }
+            .hero-grid { grid-template-columns: 1fr; gap: 30px; }
+            .hero-title { font-size: 2.2rem; }
+            .hero-subtitle { font-size: 1.05rem; }
+            .hero-stats { gap: 1.5rem; flex-wrap: wrap; }
+            .hero-stat-number { font-size: 1.75rem; }
+            .hero-visual-card { padding: 1.5rem; max-width: 100%; }
+            .hero-buttons { flex-direction: column; width: 100%; }
+            .hero-buttons a { text-align: center; width: 100%; }
+            .trust-bar-inner { gap: 1rem; }
+            .trust-item { font-size: 0.75rem; }
+        }
+        @media (max-width: 480px) {
+            .hero-title { font-size: 1.8rem; }
+            .hero-stats { flex-direction: column; gap: 0.75rem; }
+            .hero-stat { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 0.5rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
+            .hero-stat-number { font-size: 1.25rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ============================================================ -->
+<!-- HERO SECTION – FULL WIDTH WITH GRADIENT BACKGROUND          -->
+<!-- ============================================================ -->
+<section class="hero-section" id="hero">
+    <div class="container">
+        <div class="hero-grid">
+
+            <!-- Left Column – Content -->
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-rocket"></i> The #1 Shopify SEO Guide for Kenya
+                </span>
+                <h1 class="hero-title">
+                    Shopify SEO Kenya:<br>
+                    <span class="highlight">From 0 to 400% Organic Traffic Growth</span>
+                </h1>
+                <p class="hero-subtitle">
+                    The complete, step-by-step strategy to take your Kenyan Shopify store 
+                    from <strong style="color:#fc8181;">0-50 visitors</strong> to 
+                    <strong style="color:#48bb78;">400+ organic visitors/month</strong> – 
+                    with 25+ page 1 rankings and a 70% reduction in ad spend.
+                </p>
+
+                <!-- Stats Row -->
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">400%</span>
+                        <span class="hero-stat-label">Average Traffic Growth</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">25+</span>
+                        <span class="hero-stat-label">Page 1 Rankings</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-number">70%</span>
+                        <span class="hero-stat-label">Ad Spend Reduction</span>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="hero-buttons">
+                    <a href="#section1" class="btn-primary">
+                        <i class="fas fa-arrow-right"></i> Start Reading Now
+                    </a>
+                    <a href="#free-audit" class="btn-secondary">
+                        <i class="fas fa-rocket"></i> Free Shopify SEO Audit
+                    </a>
+                </div>
+
+                <!-- Trust Signals -->
+                <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.8rem; color: var(--text-gray);">
+                    <span><i class="fas fa-check-circle" style="color:#48bb78;"></i> 100% free guide</span>
+                    <span><i class="fas fa-check-circle" style="color:#48bb78;"></i> No sign-up required</span>
+                    <span><i class="fas fa-check-circle" style="color:#48bb78;"></i> Proven Kenyan strategy</span>
+                </div>
+            </div>
+
+            <!-- Right Column – Visual Card -->
+            <div class="hero-visual">
+                <div class="hero-visual-card">
+                    <p style="color:var(--text-gray); font-size:0.75rem; text-transform:uppercase; letter-spacing:0.1em; margin-bottom:1rem;">
+                        <i class="fas fa-chart-line" style="color:var(--brand-gold);"></i> Real Results – Kenyan Shopify Store
+                    </p>
+                    
+                    <div class="stat-item">
+                        <span class="stat-label">Organic Traffic (Monthly)</span>
+                        <span class="stat-value red">0–50</span>
+                        <span style="color:var(--text-gray); font-size:0.8rem; margin:0 0.5rem;">→</span>
+                        <span class="stat-value green">400+</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Page 1 Rankings</span>
+                        <span class="stat-value red">0–5</span>
+                        <span style="color:var(--text-gray); font-size:0.8rem; margin:0 0.5rem;">→</span>
+                        <span class="stat-value green">25+</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Monthly Ad Spend</span>
+                        <span class="stat-value red">KSh 50K</span>
+                        <span style="color:var(--text-gray); font-size:0.8rem; margin:0 0.5rem;">→</span>
+                        <span class="stat-value green">KSh 15K</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Organic Revenue</span>
+                        <span class="stat-value red">KSh 5K</span>
+                        <span style="color:var(--text-gray); font-size:0.8rem; margin:0 0.5rem;">→</span>
+                        <span class="stat-value gold">KSh 150K+</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Domain Authority</span>
+                        <span class="stat-value red">8</span>
+                        <span style="color:var(--text-gray); font-size:0.8rem; margin:0 0.5rem;">→</span>
+                        <span class="stat-value green">32</span>
+                    </div>
+
+                    <div class="badge-row">
+                        <span class="badge-item"><i class="fas fa-check"></i> 6 Months to Result</span>
+                        <span class="badge-item"><i class="fas fa-check"></i> 200+ Keywords Used</span>
+                        <span class="badge-item"><i class="fas fa-check"></i> 24 Content Pieces</span>
+                    </div>
+                    <div style="margin-top:1rem; padding-top:1rem; border-top:1px solid rgba(255,255,255,0.06);">
+                        <p style="font-size:0.7rem; color:var(--text-gray);">
+                            <i class="fas fa-quote-left" style="color:var(--brand-gold);"></i>
+                            "This strategy completely transformed our business. From 50 visitors to 400+, from KSh 0 to KSh 1.2M in monthly SEO revenue."
+                        </p>
+                        <p style="font-size:0.65rem; color:var(--text-gray); margin-top:0.3rem;">— Grace M., Nairobi, Kenya</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- TRUST BAR – SOCIAL PROOF & STATS                            -->
+<!-- ============================================================ -->
+<div class="trust-bar">
+    <div class="container">
+        <div class="trust-bar-inner">
+            <div class="trust-item">
+                <i class="fas fa-users"></i>
+                <span>Trusted by <strong>50+ Kenyan</strong> businesses</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-chart-bar"></i>
+                <span><strong>400%</strong> average traffic growth</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-trophy"></i>
+                <span><strong>25+</strong> page 1 rankings per store</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-clock"></i>
+                <span>Results in <strong>6 months</strong> or less</span>
+            </div>
+            <div class="trust-item">
+                <i class="fas fa-star"></i>
+                <span><strong>4.9/5</strong> client satisfaction</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- SECTION DIVIDER / CONTINUE READING                          -->
+<!-- ============================================================ -->
+<div style="background:#f7fafc; padding:2rem 0; text-align:center;">
+    <div class="container">
+        <p style="color:#718096; font-size:0.9rem; max-width:600px; margin:0 auto;">
+            <i class="fas fa-chevron-down" style="color:var(--brand-gold);"></i> 
+            <strong style="color:#1a202c;">Continue reading below</strong> – the complete Shopify SEO strategy for Kenya
+        </p>
+        <div style="width:60px; height:3px; background:var(--brand-gold); margin:0.75rem auto 0;"></div>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- END OF HERO SECTION                                          -->
+<!-- ============================================================ -->
+
+<!-- ============================================================ -->
+<!-- SECTION 1: HERO – THE SHOPIFY SEO KENYA OPPORTUNITY         -->
+<!-- ============================================================ -->
+<section class="hero-section" id="hero">
+    <div class="container hero-content">
+
+        <!-- Badge -->
+        <div class="hero-badge">
+            <i class="fas fa-rocket"></i> Kenyan E‑commerce Focus
+        </div>
+
+        <!-- Main Heading -->
+        <h1>
+            Shopify SEO Kenya –<br>
+            <span class="highlight">From Zero to 400%</span><br>
+            Organic Traffic Growth
+        </h1>
+        <p class="sub-headline">
+            <strong>Stop wasting money on ads that stop working the moment you pause them.</strong> This complete guide reveals the exact 7‑step Shopify SEO strategy that took a Nairobi fashion store from <strong>0‑50 organic visitors/month</strong> to <strong>400+ targeted visitors/month</strong> – <span class="text-brand-gold">without spending a shilling on ads.</span>
+        </p>
+
+        <!-- Stats / Social Proof -->
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">400%</span>
+                <span class="stat-label">Organic Traffic Growth</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">25+</span>
+                <span class="stat-label">Page 1 Rankings</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">70%</span>
+                <span class="stat-label">Ad Spend Reduction</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">KSh 180K</span>
+                <span class="stat-label">Monthly Organic Revenue</span>
+            </div>
+        </div>
+
+        <!-- Problem / Opportunity Bullets (BOFU Keywords) -->
+        <ul class="problem-list">
+            <li>
+                <i class="fas fa-times-circle"></i>
+                <span><span class="highlight-text">90% of Kenyan Shopify stores</span> are invisible on Google – relying entirely on expensive, short‑term social media ads.</span>
+            </li>
+            <li>
+                <i class="fas fa-check-circle"></i>
+                <span><span class="highlight-text">68% of online shopping journeys</span> start with a Google search – but most Kenyan stores <span class="highlight-text">aren't optimised to capture</span> this high‑intent traffic.</span>
+            </li>
+            <li>
+                <i class="fas fa-times-circle"></i>
+                <span><span class="highlight-text">75% of users never scroll past page 1</span> – if you're not ranking, you're losing thousands of potential customers every month.</span>
+            </li>
+            <li>
+                <i class="fas fa-check-circle"></i>
+                <span><span class="highlight-text">Kenya's e‑commerce market is worth $5B</span> – the stores that invest in SEO <span class="highlight-text">now</span> are the ones that will dominate <span class="highlight-text">for years</span>.</span>
+            </li>
+        </ul>
+
+        <!-- Call to Actions -->
+        <div class="cta-group">
+            <a href="#free-audit" class="btn-primary">
+                <i class="fas fa-rocket"></i> Get Your Free $100 SEO Audit
+            </a>
+            <a href="https://wa.me/254710346425" target="_blank" rel="noopener" class="btn-secondary">
+                <i class="fab fa-whatsapp"></i> Chat with an Expert
+            </a>
+        </div>
+
+        <!-- Trust Signals -->
+        <div class="trust-row">
+            <span><i class="fas fa-check-circle"></i> 50+ Shopify stores optimised</span>
+            <span><i class="fas fa-check-circle"></i> 100% Kenyan focus</span>
+            <span><i class="fas fa-check-circle"></i> 4.9/5 client satisfaction</span>
+            <span class="badge"><i class="fas fa-star"></i> Case study inside</span>
+        </div>
+
+        <!-- BOFU Long‑Tail Keywords Footnote -->
+        <p class="hero-footnote">
+            <i class="fas fa-arrow-right" style="color: #d4a017;"></i>
+            <strong>Keywords this guide covers:</strong>
+            <span>
+                "Shopify SEO Kenya," "Shopify store not ranking Kenya," "how to get traffic to Shopify store Kenya," "Shopify SEO cost Kenya," "best Shopify SEO agency Kenya," "hire Shopify SEO expert Kenya," "Shopify organic traffic Kenya," "how to rank Shopify store Nairobi," "Shopify product SEO Kenya," "Shopify blog SEO Kenya," "Shopify technical SEO Kenya," "mobile optimisation Shopify Kenya," "Shopify keyword research Kenya," "Shopify local SEO Kenya," "Kenyan backlinks for Shopify," "Shopify conversion optimisation Kenya," "Shopify analytics Kenya," "Shopify SEO case study Kenya"
+            </span>
+        </p>
+
+    </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- HERO SECTION STYLES – Embedded Here for Clarity             -->
+<!-- ============================================================ -->
+<style>
+    /* ===== RESET & BASE ===== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: 'Inter', -apple-system, sans-serif;
+        background: #ffffff;
+        color: #1a202c;
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* ===== HERO – FULL WIDTH, DARK GRADIENT, CONVERSION FOCUSED ===== */
+    .hero-section {
+        position: relative;
+        background: linear-gradient(145deg, #0b0b1a 0%, #141428 50%, #1a1a30 100%);
+        padding: 100px 0 110px;
+        overflow: hidden;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        border-bottom: 4px solid rgba(212, 160, 23, 0.3);
+    }
+    /* glowing orbs for depth */
+    .hero-section::before {
+        content: '';
+        position: absolute;
+        top: -30%;
+        right: -15%;
+        width: 800px;
+        height: 800px;
+        background: radial-gradient(circle, rgba(212, 160, 23, 0.08) 0%, transparent 70%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
+    .hero-section::after {
+        content: '';
+        position: absolute;
+        bottom: -20%;
+        left: -10%;
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(circle, rgba(212, 160, 23, 0.05) 0%, transparent 70%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
+    .hero-section .hero-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Badge */
+    .hero-badge {
+        display: inline-block;
+        background: rgba(212, 160, 23, 0.15);
+        color: #f0d060;
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 0.4rem 1.2rem;
+        border-radius: 100px;
+        border: 1px solid rgba(212, 160, 23, 0.3);
+        margin-bottom: 1.2rem;
+    }
+    .hero-badge i { margin-right: 0.4rem; }
+
+    /* Headings */
+    .hero-section h1 {
+        font-size: clamp(2.2rem, 7vw, 4.2rem);
+        font-weight: 900;
+        line-height: 1.1;
+        color: #ffffff;
+        letter-spacing: -0.02em;
+    }
+    .hero-section h1 .highlight {
+        color: #d4a017;
+        background: linear-gradient(135deg, #d4a017, #f0d060);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .hero-section .sub-headline {
+        font-size: clamp(1rem, 1.5vw, 1.25rem);
+        color: #cbd5e0;
+        max-width: 700px;
+        margin-top: 0.8rem;
+        line-height: 1.8;
+    }
+    .hero-section .sub-headline strong {
+        color: #ffffff;
+    }
+    .hero-section .sub-headline .text-brand-gold {
+        color: #d4a017;
+        font-weight: 700;
+    }
+
+    /* Stats Row */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0 2.5rem;
+    }
+    .stats-grid .stat-item {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(4px);
+        border-radius: 16px;
+        padding: 1rem 1.2rem;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        text-align: center;
+    }
+    .stats-grid .stat-number {
+        font-size: clamp(1.4rem, 3vw, 2.2rem);
+        font-weight: 800;
+        color: #d4a017;
+        display: block;
+    }
+    .stats-grid .stat-label {
+        font-size: 0.75rem;
+        color: #a0aec0;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        margin-top: 0.15rem;
+    }
+
+    /* Problem / Opportunity Bullets */
+    .problem-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.8rem 1.5rem;
+        margin: 1.8rem 0 2rem;
+        max-width: 800px;
+        list-style: none;
+        padding: 0;
+    }
+    .problem-list li {
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        gap: 0.6rem;
+        font-size: 0.95rem;
+        color: #e2e8f0;
+    }
+    .problem-list li i {
+        color: #d4a017;
+        font-size: 1rem;
+        margin-top: 0.15rem;
+        flex-shrink: 0;
+    }
+    .problem-list li .highlight-text {
+        color: #ffffff;
+        font-weight: 600;
+    }
+    .problem-list li .fa-times-circle { color: #ef4444; }
+    .problem-list li .fa-check-circle { color: #22c55e; }
+
+    /* CTA Buttons */
+    .cta-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1.8rem 0 1.2rem;
+    }
+    .btn-primary {
+        background: #d4a017;
+        color: #0b0b1a;
+        font-weight: 700;
+        padding: 0.9rem 2.2rem;
+        border-radius: 60px;
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: 0.95rem;
+        box-shadow: 0 8px 30px rgba(212, 160, 23, 0.25);
+        border: none;
+        cursor: pointer;
+    }
+    .btn-primary:hover {
+        background: #e6b422;
+        transform: translateY(-2px);
+        box-shadow: 0 12px 40px rgba(212, 160, 23, 0.35);
+    }
+    .btn-secondary {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(4px);
+        color: #ffffff;
+        font-weight: 600;
+        padding: 0.9rem 2rem;
+        border-radius: 60px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        transition: all 0.25s ease;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        font-size: 0.95rem;
+    }
+    .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.15);
+        border-color: #d4a017;
+        transform: translateY(-2px);
+    }
+
+    /* Trust Signals */
+    .trust-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1.2rem 2rem;
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        color: #a0aec0;
+    }
+    .trust-row i {
+        color: #d4a017;
+        margin-right: 0.4rem;
+    }
+    .trust-row .badge {
+        background: rgba(212, 160, 23, 0.12);
+        padding: 0.25rem 0.9rem;
+        border-radius: 100px;
+        color: #f0d060;
+        font-weight: 600;
+        font-size: 0.7rem;
+        letter-spacing: 0.02em;
+    }
+
+    /* BOFU Keyword Footnote */
+    .hero-footnote {
+        margin-top: 2rem;
+        font-size: 0.7rem;
+        color: #4a5568;
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+        padding-top: 1.5rem;
+        max-width: 700px;
+        line-height: 1.6;
+    }
+    .hero-footnote strong {
+        color: #cbd5e0;
+    }
+    .hero-footnote span {
+        color: #718096;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+        .hero-section { padding: 70px 0 80px; }
+        .problem-list { grid-template-columns: 1fr; }
+        .stats-grid { grid-template-columns: repeat(2, 1fr); }
+        .cta-group .btn-primary,
+        .cta-group .btn-secondary {
+            width: 100%;
+            justify-content: center;
+        }
+        .trust-row {
+            gap: 0.8rem 1rem;
+            font-size: 0.7rem;
+        }
+    }
+</style>
+
+<!-- ============================================================ -->
+<!-- FONTS & ICONS (if not already in your global header)        -->
+<!-- ============================================================ -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 <!-- ============================================================ -->
 <!-- SECTION 3: TABLE OF CONTENTS – SHOPIFY SEO KENYA COMPLETE GUIDE -->
 <!-- ============================================================ -->
